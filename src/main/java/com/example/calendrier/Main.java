@@ -1,4 +1,5 @@
 package com.example.calendrier;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -6,11 +7,12 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Main extends Application {
+
     @Override
-    public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("hello-view.fxml"));
-        primaryStage.setTitle("Calendar Events");
-        primaryStage.setScene(new Scene(root, 600, 400));
+    public void start(Stage primaryStage) throws Exception {
+        Parent initialView = FXMLLoader.load(getClass().getResource("Semaine-view.fxml"));
+        primaryStage.setTitle("Calendrier");
+        primaryStage.setScene(new Scene(initialView, 600, 400));
         primaryStage.show();
     }
 

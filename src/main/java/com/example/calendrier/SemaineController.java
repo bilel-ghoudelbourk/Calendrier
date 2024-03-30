@@ -1,6 +1,7 @@
 package com.example.calendrier;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 import java.time.LocalDate;
@@ -12,7 +13,7 @@ import java.util.List;
 import javafx.geometry.HPos;
 
 
-public class HelloController {
+public class SemaineController {
     @FXML
     private GridPane scheduleGrid;
     @FXML
@@ -90,18 +91,27 @@ public class HelloController {
         long startSlotsFromGridStart = Duration.between(LocalTime.of(8, 0), eventStart).toMinutes() / 30;
         long endSlotsFromGridStart = Duration.between(LocalTime.of(8, 0), eventEnd).toMinutes() / 30;
 
-        int startRow = (int) startSlotsFromGridStart +1;
-        int durationSlots = (int) (endSlotsFromGridStart - startSlotsFromGridStart)+1;
+        int startRow = (int) startSlotsFromGridStart + 1;
+        int durationSlots = (int) (endSlotsFromGridStart - startSlotsFromGridStart) + 1;
 
         Label eventLabel = new Label(event.getSummary() + "\n@" + (event.getLocation() != null ? event.getLocation() : "Unknown Location"));
-        eventLabel.setStyle("-fx-background-color: lightblue; -fx-border-color: black; -fx-border-width: 1;");
-        eventLabel.setWrapText(true);
+        eventLabel.getStyleClass().add("event-label"); // Utiliser la classe CSS au lieu du style inline
 
         double minHeight = durationSlots * 30;
         eventLabel.setMinHeight(minHeight);
 
+        eventLabel.setOnMouseClicked(e -> {
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Détails de la séance");
+            alert.setHeaderText(eventStart.toString() + " - " + eventEnd.toString());
+            String content = "Lieu: " + event.getLocation() + "\n\nDescription:\n" + event.getSummary();
+            alert.setContentText(content);
+            alert.showAndWait();
+        });
+
         scheduleGrid.add(eventLabel, dayOfWeek, startRow, 1, durationSlots);
     }
+
 
 
 
