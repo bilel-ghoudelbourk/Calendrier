@@ -10,16 +10,16 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calendrier.JourController" stylesheets="@style.css">
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calendrier.JourController" >
     <top>
         <VBox>
             <fx:include source="Header.fxml"/>
-            <HBox alignment="CENTER" spacing="10" style="-fx-background-color: #f0f0f0; -fx-padding: 10;">
+            <HBox alignment="CENTER" spacing="10" style=" -fx-padding: 10;">
                 <Button onAction="#handlePreviousDay" text="Jour précédent" />
                 <Label fx:id="currentDayLabel" style="-fx-font-weight: bold;" text="Jour: XX" HBox.hgrow="ALWAYS" />
                 <Button onAction="#handleNextDay" text="Jour suivant" />
             </HBox>
-            <HBox alignment="CENTER" spacing="10" style="-fx-background-color: #f0f0f0;">
+            <HBox alignment="CENTER" spacing="10" >
                 <Label style="-fx-min-width: 50px;" />
 
             </HBox>

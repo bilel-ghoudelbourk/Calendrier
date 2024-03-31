@@ -10,9 +10,15 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent initialView = FXMLLoader.load(getClass().getResource("Semaine-view.fxml"));
+        Parent initialView = FXMLLoader.load(getClass().getResource("/com/example/calendrier/Semaine-view.fxml"));
         primaryStage.setTitle("Calendrier");
-        primaryStage.setScene(new Scene(initialView, 600, 400));
+
+        Scene scene = new Scene(initialView, 600, 400);
+
+        String cssPath = getClass().getResource("/com/example/calendrier/style_dark.css").toExternalForm();
+        scene.getStylesheets().add(cssPath);
+
+        primaryStage.setScene(scene);
         primaryStage.show();
     }
 

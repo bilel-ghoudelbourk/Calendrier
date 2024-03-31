@@ -2,15 +2,16 @@ package com.example.calendrier;
 
 import javafx.fxml.FXML;
 import javafx.geometry.HPos;
-import javafx.scene.control.Label;
+import javafx.scene.Scene;
 import javafx.scene.layout.GridPane;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.Duration;
 import java.util.List;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
-import javafx.scene.input.MouseEvent;
+import javafx.scene.control.Alert;
+import javafx.scene.control.DialogPane;
+import javafx.scene.control.ScrollPane;
 
 
 public class JourController {
@@ -54,10 +55,12 @@ public class JourController {
     private void updateDayDisplay(LocalDate day) {
         currentDayLabel.setText("Jour: " + day);
 
+
         scheduleGrid.getChildren().clear();
         populateHeaders();
 
         List<Event> events = loadEventsForDay(day);
+
 
         for (Event event : events) {
             placeEventInSchedule(event);
@@ -65,7 +68,8 @@ public class JourController {
     }
 
     private List<Event> loadEventsForDay(LocalDate day) {
-        return IcsReader.readIcsFromUrl("https://edt-api.univ-avignon.fr/api/exportAgenda/tdoption/def5020057410cf5c853a924037ce2629db4bc0fe3bd0382e5a07e7e433edd7c7b6a120b7b2c13079afe5493fb79969be2d4786ffcca7abeca404df672aa7001c3e5f252d5b94a390dd452cb7a356d3d6b9682f6c1c3ee5b");
+
+        return IcsReader.readIcsFromUrl(HeaderController.getEventsUrl());
     }
 
     private void placeEventInSchedule(Event event) {
@@ -96,7 +100,21 @@ public class JourController {
             alert.setTitle("Détails de la séance");
             alert.setHeaderText(eventStart.toString() + " - " + eventEnd.toString());
             String content = "Lieu: " + event.getLocation() + "\n\nDescription:\n" + event.getSummary();
-            alert.setContentText(content);
+
+            ScrollPane scrollPane = new ScrollPane();
+            scrollPane.setPrefSize(800, 400);
+            Label l=new Label(content);
+            scrollPane.setContent(l);
+
+            Scene currentScene = scheduleGrid.getScene();
+            if (currentScene != null) {
+                DialogPane dialogPane = alert.getDialogPane();
+                dialogPane.getStylesheets().addAll(currentScene.getStylesheets());
+                dialogPane.getStyleClass().add("myDialog");
+            }
+
+            alert.getDialogPane().setContent(scrollPane);
+
             alert.showAndWait();
         });
 

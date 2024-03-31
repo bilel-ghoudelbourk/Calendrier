@@ -11,6 +11,13 @@ import java.time.temporal.TemporalAdjusters;
 import java.time.DayOfWeek;
 import java.util.List;
 import javafx.geometry.HPos;
+import javafx.scene.control.DialogPane;
+import javafx.scene.Scene;
+import javafx.scene.control.ScrollPane;
+
+
+
+
 
 
 public class SemaineController {
@@ -36,7 +43,6 @@ public class SemaineController {
         String[] daysOfWeek = {"Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"};
         for (int i = 0; i < daysOfWeek.length; i++) {
             Label dayLabel = new Label(daysOfWeek[i]);
-            dayLabel.setStyle("-fx-border-style: solid; -fx-border-width: 0 0 1 0; -fx-border-color: #9DB2BF;");
             scheduleGrid.add(dayLabel, i + 1, 0);
             GridPane.setHalignment(dayLabel, HPos.CENTER);
         }
@@ -68,7 +74,7 @@ public class SemaineController {
         currentWeekLabel.setText("Semaine du " + currentWeekStart);
         scheduleGrid.getChildren().clear();
         populateHeaders();
-        List<Event> events = IcsReader.readIcsFromUrl("https://edt-api.univ-avignon.fr/api/exportAgenda/tdoption/def5020057410cf5c853a924037ce2629db4bc0fe3bd0382e5a07e7e433edd7c7b6a120b7b2c13079afe5493fb79969be2d4786ffcca7abeca404df672aa7001c3e5f252d5b94a390dd452cb7a356d3d6b9682f6c1c3ee5b");
+        List<Event> events = IcsReader.readIcsFromUrl(HeaderController.getEventsUrl());
         for (Event event : events) {
             if (isEventInCurrentWeek(event)) {
                 placeEventInSchedule(event);
@@ -95,7 +101,7 @@ public class SemaineController {
         int durationSlots = (int) (endSlotsFromGridStart - startSlotsFromGridStart) + 1;
 
         Label eventLabel = new Label(event.getSummary() + "\n@" + (event.getLocation() != null ? event.getLocation() : "Unknown Location"));
-        eventLabel.getStyleClass().add("event-label"); // Utiliser la classe CSS au lieu du style inline
+        eventLabel.getStyleClass().add("event-label");
 
         double minHeight = durationSlots * 30;
         eventLabel.setMinHeight(minHeight);
@@ -105,9 +111,25 @@ public class SemaineController {
             alert.setTitle("Détails de la séance");
             alert.setHeaderText(eventStart.toString() + " - " + eventEnd.toString());
             String content = "Lieu: " + event.getLocation() + "\n\nDescription:\n" + event.getSummary();
-            alert.setContentText(content);
+
+            ScrollPane scrollPane = new ScrollPane();
+            scrollPane.setPrefSize(800, 400);
+            Label l=new Label(content);
+            scrollPane.setContent(l);
+
+            Scene currentScene = scheduleGrid.getScene();
+            if (currentScene != null) {
+                DialogPane dialogPane = alert.getDialogPane();
+                dialogPane.getStylesheets().addAll(currentScene.getStylesheets());
+                dialogPane.getStyleClass().add("myDialog");
+            }
+
+            alert.getDialogPane().setContent(scrollPane);
+
             alert.showAndWait();
         });
+
+
 
         scheduleGrid.add(eventLabel, dayOfWeek, startRow, 1, durationSlots);
     }

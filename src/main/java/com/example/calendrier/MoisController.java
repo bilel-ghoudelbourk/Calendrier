@@ -1,6 +1,7 @@
 package com.example.calendrier;
 
 import javafx.fxml.FXML;
+import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
@@ -14,6 +15,9 @@ import java.util.Locale;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Comparator;
+import javafx.scene.control.ScrollPane;
+
+import javafx.scene.control.DialogPane;
 
 
 
@@ -31,7 +35,7 @@ public class MoisController {
     }
 
     private void loadEventsForMonth() {
-        eventsThisMonth = IcsReader.readIcsFromUrl("https://edt-api.univ-avignon.fr/api/exportAgenda/tdoption/def5020057410cf5c853a924037ce2629db4bc0fe3bd0382e5a07e7e433edd7c7b6a120b7b2c13079afe5493fb79969be2d4786ffcca7abeca404df672aa7001c3e5f252d5b94a390dd452cb7a356d3d6b9682f6c1c3ee5b");
+        eventsThisMonth = IcsReader.readIcsFromUrl(HeaderController.getEventsUrl());
     }
     private void updateMonthDisplay() {
         currentMonthLabel.setText(currentYearMonth.getMonth().getDisplayName(TextStyle.FULL, Locale.getDefault()) + " " + currentYearMonth.getYear());
@@ -69,7 +73,7 @@ public class MoisController {
                 .count();
     }
 
-    private void showEventsOfDay(LocalDate date) {
+    public void showEventsOfDay(LocalDate date) {
         List<Event> eventsOfDay = eventsThisMonth.stream()
                 .filter(event -> event.getStartDateTime().toLocalDate().isEqual(date))
                 .sorted(Comparator.comparing(event -> event.getStartDateTime().toLocalTime()))
@@ -78,25 +82,45 @@ public class MoisController {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd MMMM yyyy", Locale.getDefault());
         alert.setTitle("Événements du " + dateFormatter.format(date));
-        alert.setHeaderText("Événements pour " + date.getDayOfWeek().getDisplayName(TextStyle.FULL, Locale.getDefault()) +" "+ dateFormatter.format(date));
+        alert.setHeaderText("Événements pour " + date.getDayOfWeek().getDisplayName(TextStyle.FULL, Locale.getDefault()) + " " + dateFormatter.format(date));
+
+        VBox contentBox = new VBox(5);
+        contentBox.setStyle("-fx-padding: 10;");
 
         if (eventsOfDay.isEmpty()) {
-            alert.setContentText("Aucun événement pour ce jour.");
+            contentBox.getChildren().add(new Label("Aucun événement pour ce jour."));
         } else {
-            StringBuilder content = new StringBuilder();
             for (Event event : eventsOfDay) {
                 LocalTime eventStart = event.getStartDateTime().toLocalTime();
                 LocalTime eventEnd = event.getEndDateTime().toLocalTime();
-                content.append(String.format("%s - %s : %s (%s)\n",
+                String eventText = String.format("%s - %s : %s (%s)",
                         eventStart.format(DateTimeFormatter.ofPattern("HH:mm")),
                         eventEnd.format(DateTimeFormatter.ofPattern("HH:mm")),
                         event.getSummary(),
-                        event.getLocation() != null ? event.getLocation() : "Lieu non spécifié"));
+                        event.getLocation() != null ? event.getLocation() : "Lieu non spécifié");
+
+                Label eventLabel = new Label(eventText);
+                eventLabel.setWrapText(true);
+                eventLabel.getStyleClass().addAll("event-label", "text-color", "primary-color");
+                contentBox.getChildren().add(eventLabel);
             }
-            alert.setContentText(content.toString());
         }
+
+        ScrollPane scrollPane = new ScrollPane(contentBox);
+        scrollPane.setPrefHeight(400);
+        scrollPane.setPrefWidth(800);
+        alert.getDialogPane().setContent(scrollPane);
+
+        Scene currentScene = calendarGrid.getScene();
+        if (currentScene != null) {
+            DialogPane dialogPane = alert.getDialogPane();
+            dialogPane.getStylesheets().addAll(currentScene.getStylesheets());
+            dialogPane.getStyleClass().add("myDialog");
+        }
+
         alert.showAndWait();
     }
+
 
 
 
