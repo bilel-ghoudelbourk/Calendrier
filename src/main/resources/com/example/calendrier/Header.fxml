@@ -4,6 +4,7 @@
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
 
 <HBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calendrier.HeaderController">
     <Label text="   " />
@@ -22,5 +23,31 @@
             </FXCollections>
         </items>
     </ComboBox>
+
+    <ComboBox fx:id="formationComboBox" prefWidth="150">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+
+            </FXCollections>
+        </items>
+    </ComboBox>
+
+    <ComboBox fx:id="enseignantComboBox" prefWidth="150">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+
+            </FXCollections>
+        </items>
+    </ComboBox>
+
+    <ComboBox fx:id="salleComboBox" prefWidth="150">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+
+            </FXCollections>
+        </items>
+    </ComboBox>
+
+    <Button fx:id="openFilterWindowButton" text="Ouvrir Filtre" onAction="#openFilterWindow"/>
 </HBox>
 

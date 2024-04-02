@@ -21,12 +21,16 @@ public class JourController {
     private Label currentDayLabel;
 
     private LocalDate currentDate;
+    private List<Event> events;
 
     @FXML
     private void initialize() {
+        
         currentDate = LocalDate.now();
+        loadEventsForDay();
         updateDayDisplay(currentDate);
         populateHeaders();
+        HeaderController.setCurrentViewController(this);
     }
 
     @FXML
@@ -55,27 +59,40 @@ public class JourController {
     private void updateDayDisplay(LocalDate day) {
         currentDayLabel.setText("Jour: " + day);
 
-
+        
         scheduleGrid.getChildren().clear();
         populateHeaders();
 
-        List<Event> events = loadEventsForDay(day);
-
-
+        
         for (Event event : events) {
             placeEventInSchedule(event);
         }
     }
 
-    private List<Event> loadEventsForDay(LocalDate day) {
+    public void updateEvents(List<Event> filteredEvents) {
+        this.events = filteredEvents; 
+        updateDayDisplay(currentDate); 
+    }
 
-        return IcsReader.readIcsFromUrl(HeaderController.getEventsUrl());
+    public void refreshEvents() {
+        loadEventsForDay();
+        updateDayDisplay(currentDate);
+    }
+
+
+    private void loadEventsForDay() {
+        List<Event> globalFilteredEvents = HeaderController.getFilteredEventsGlobal();
+        if (globalFilteredEvents != null) {
+            events = globalFilteredEvents; 
+        } else {
+            events = IcsReader.readIcsFromUrl(HeaderController.getEventsUrl()); 
+        }
     }
 
     private void placeEventInSchedule(Event event) {
         LocalDate eventDate = event.getStartDateTime().toLocalDate();
         if (!eventDate.equals(currentDate)) {
-            return;
+            return; 
         }
 
         LocalTime startOfSchedule = LocalTime.of(8, 0);

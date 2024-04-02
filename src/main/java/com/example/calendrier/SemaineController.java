@@ -27,14 +27,25 @@ public class SemaineController {
     private Label currentWeekLabel;
 
     private LocalDate currentWeekStart;
+    private List<Event> events=null;
 
     @FXML
     private void initialize() {
+        loadEvents();
         currentWeekStart = LocalDate.now().with(TemporalAdjusters.previousOrSame(DayOfWeek.MONDAY));
         updateWeekDisplay();
         populateHeaders();
+        HeaderController.setCurrentViewController(this);
     }
 
+    private void loadEvents() {
+        List<Event> globalFilteredEvents = HeaderController.getFilteredEventsGlobal();
+        if (globalFilteredEvents != null) {
+            events = globalFilteredEvents; 
+        } else {
+            events = IcsReader.readIcsFromUrl(HeaderController.getEventsUrl()); 
+        }
+    }
     private void populateHeaders() {
         Label emptyLabel = new Label("");
         scheduleGrid.add(emptyLabel, 0, 0);
@@ -74,13 +85,26 @@ public class SemaineController {
         currentWeekLabel.setText("Semaine du " + currentWeekStart);
         scheduleGrid.getChildren().clear();
         populateHeaders();
-        List<Event> events = IcsReader.readIcsFromUrl(HeaderController.getEventsUrl());
+        //events = IcsReader.readIcsFromUrl(HeaderController.getEventsUrl());
         for (Event event : events) {
             if (isEventInCurrentWeek(event)) {
                 placeEventInSchedule(event);
             }
         }
     }
+
+    public void updateEvents(List<Event> filteredEvents) {
+        this.events = filteredEvents;
+        updateWeekDisplay();
+    }
+
+
+
+    public void refreshEvents() {
+        loadEvents();
+        updateWeekDisplay(); 
+    }
+
 
 
     private boolean isEventInCurrentWeek(Event event) {
@@ -101,7 +125,7 @@ public class SemaineController {
         int durationSlots = (int) (endSlotsFromGridStart - startSlotsFromGridStart) + 1;
 
         Label eventLabel = new Label(event.getSummary() + "\n@" + (event.getLocation() != null ? event.getLocation() : "Unknown Location"));
-        eventLabel.getStyleClass().add("event-label");
+        eventLabel.getStyleClass().add("event-label"); 
 
         double minHeight = durationSlots * 30;
         eventLabel.setMinHeight(minHeight);

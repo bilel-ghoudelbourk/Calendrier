@@ -4,20 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11574210-c0c2-42b8-a0a2-ceceb4ceeb2b" name="Changes" comment="Intégration de l'affichage par Jour et par Mois.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_light.css" afterDir="false" />
+    <list default="true" id="11574210-c0c2-42b8-a0a2-ceceb4ceeb2b" name="Changes" comment="Quelques modifications de logique + L'intégration du mode clair et mode Sombre.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/FilterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/Summary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/filter.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_bonus1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_bonus2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_bonus3.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calendrier/HeaderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/HeaderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calendrier/JourController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/JourController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calendrier/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calendrier/MoisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/MoisController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calendrier/SemaineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/SemaineController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/Header.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/Header.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/Jour-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/Jour-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/Mois-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/Mois-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/Semaine-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/Semaine-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_light.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_light.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,23 +49,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/M1 IA S2/Calendrier/src/main/resources/com/example/calendrier",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/M1 IA S2/Calendrier/src/main/resources/com/example/calendrier&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\M1 IA S2\Calendrier\src\main\resources\com\example\calendrier" />
@@ -104,7 +107,9 @@
       <workItem from="1711747985643" duration="5632000" />
       <workItem from="1711760970481" duration="928000" />
       <workItem from="1711778159882" duration="1646000" />
-      <workItem from="1711862282072" duration="1225000" />
+      <workItem from="1711862282072" duration="1691000" />
+      <workItem from="1712016379426" duration="52000" />
+      <workItem from="1712090251012" duration="1822000" />
     </task>
     <task id="LOCAL-00001" summary="Créer la classe Event pour le type des événements, IcsReader pour lire le type de fichiers ICS d'après un fichier ou bien une API, et faire l'affichage graphique d'un calendrier d'une semaine.">
       <option name="closed" value="true" />
@@ -122,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711779691829</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Quelques modifications de logique + L'intégration du mode clair et mode Sombre.">
+      <option name="closed" value="true" />
+      <created>1711863543627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711863543627</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Créer la classe Event pour le type des événements, IcsReader pour lire le type de fichiers ICS d'après un fichier ou bien une API, et faire l'affichage graphique d'un calendrier d'une semaine." />
     <MESSAGE value="Intégration de l'affichage par Jour et par Mois." />
-    <option name="LAST_COMMIT_MESSAGE" value="Intégration de l'affichage par Jour et par Mois." />
+    <MESSAGE value="Quelques modifications de logique + L'intégration du mode clair et mode Sombre." />
+    <option name="LAST_COMMIT_MESSAGE" value="Quelques modifications de logique + L'intégration du mode clair et mode Sombre." />
   </component>
 </project>

@@ -1,0 +1,197 @@
+
+.root-bg-color { -fx-background-color: #007F96; }
+.primary-color { -fx-background-color: #017286; }
+.secondary-color { -fx-background-color: #006377; }
+.tertiary-color { -fx-background-color: #005468; }
+.text-color { -fx-text-fill: #ffffff; }
+
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-background-color: #017286;
+}
+
+.label {
+    -fx-text-fill: #ffffff;
+}
+
+.button {
+    -fx-background-color: #006377;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 5 15;
+}
+
+.button:hover {
+    -fx-background-color: #005468;
+}
+
+.combo-box {
+    -fx-background-color: #006377;
+    -fx-text-fill: #ffffff;
+    -fx-control-inner-background: #006377;
+
+}
+
+
+.header {
+    -fx-background-color: #017286;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 10;
+}
+.scroll-pane {
+    -fx-background: #017286;
+    -fx-control-inner-background: #017286;
+}
+
+
+.day-label, .week-label, .month-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+
+
+.schedule-grid {
+    -fx-grid-lines-visible: false;
+    -fx-border-color: #006377;
+    -fx-background-color: #017286;
+    -fx-control-inner-background: #007F96;
+}
+
+.calendar-grid {
+    -fx-grid-lines-visible: false;
+    -fx-border-color: #006377;
+    -fx-background-color: #017286;
+    -fx-control-inner-background: #007F96;
+}
+
+.event-label {
+    -fx-background-color: #006377;
+    -fx-wrap-text: true;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 15;
+    -fx-border-color: #017286;
+    -fx-border-width: 1;
+}
+.event-label:hover{
+    -fx-background-color: #005468;
+}
+
+.day-cell:hover{
+    -fx-background-color:#005468;
+}
+
+.event-count-label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 15px;
+}
+
+
+.day-cell {
+    -fx-alignment: center;
+    -fx-padding: 10;
+    -fx-font-size: 20px;
+    -fx-background-color: #006377;
+}
+
+
+.time-label {
+    -fx-font-weight: normal;
+    -fx-text-fill: #ffffff;
+}
+
+
+
+.scroll-bar {
+    -fx-background-color: #006377;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #006377;
+}
+
+.scroll-bar .track {
+    -fx-background-color: #017286;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: #006377;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #005468;
+}
+
+
+.combo-box .list-cell {
+    -fx-padding: 5 10;
+    -fx-background-color: #006377;
+    -fx-text-fill: #ffffff;
+    -fx-control-inner-background: #007F96;
+}
+
+.combo-box .list-cell:filled:selected, .combo-box .list-cell:filled:selected:hover {
+    -fx-background-color: #006377;
+    -fx-text-fill: #ffffff;
+    -fx-control-inner-background: #007F96;
+}
+
+.combo-box .list-view {
+    -fx-background-color: #006377;
+
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #006377;
+    -fx-text-fill: #ffffff;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #005468;
+}
+
+
+.combo-box-base {
+    -fx-background-color: #006377;
+    -fx-text-fill: #ffffff;
+    -fx-mark-color: #ffffff;
+}
+
+
+.combo-box-popup .list-view {
+    -fx-background-color: #006377;
+}
+
+.combo-box-popup .list-cell {
+    -fx-background-color: #006377;
+    -fx-text-fill: #ffffff;
+}
+
+.combo-box-popup .list-cell:filled:selected,
+.combo-box-popup .list-cell:filled:selected:hover {
+    -fx-background-color: #006377;
+    -fx-text-fill: #ffffff;
+}
+
+
+.combo-box .arrow-button {
+    -fx-background-color: #006377;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #ffffff;
+}
+
+.myDialog {
+    -fx-background-color: #007F96;
+}
+
+.myDialog .header-panel {
+    -fx-background-color: #006377;
+    -fx-text-fill: #ffffff;
+}
+
+.myDialog .content-panel {
+    -fx-background-color: #006377;
+    -fx-text-fill: #ffffff;
+}
