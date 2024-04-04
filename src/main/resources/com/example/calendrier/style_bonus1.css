@@ -1,4 +1,3 @@
-
 .root-bg-color { -fx-background-color: #007F96; }
 .primary-color { -fx-background-color: #017286; }
 .secondary-color { -fx-background-color: #006377; }
@@ -28,9 +27,7 @@
     -fx-background-color: #006377;
     -fx-text-fill: #ffffff;
     -fx-control-inner-background: #006377;
-
 }
-
 
 .header {
     -fx-background-color: #017286;
@@ -42,13 +39,10 @@
     -fx-control-inner-background: #017286;
 }
 
-
 .day-label, .week-label, .month-label {
     -fx-font-weight: bold;
     -fx-text-fill: #ffffff;
 }
-
-
 
 .schedule-grid {
     -fx-grid-lines-visible: false;
@@ -72,11 +66,11 @@
     -fx-border-color: #017286;
     -fx-border-width: 1;
 }
-.event-label:hover{
+.event-label:hover {
     -fx-background-color: #005468;
 }
 
-.day-cell:hover{
+.day-cell:hover {
     -fx-background-color:#005468;
 }
 
@@ -85,7 +79,6 @@
     -fx-font-size: 15px;
 }
 
-
 .day-cell {
     -fx-alignment: center;
     -fx-padding: 10;
@@ -93,13 +86,10 @@
     -fx-background-color: #006377;
 }
 
-
 .time-label {
     -fx-font-weight: normal;
     -fx-text-fill: #ffffff;
 }
-
-
 
 .scroll-bar {
     -fx-background-color: #006377;
@@ -122,7 +112,6 @@
     -fx-background-color: #005468;
 }
 
-
 .combo-box .list-cell {
     -fx-padding: 5 10;
     -fx-background-color: #006377;
@@ -130,7 +119,8 @@
     -fx-control-inner-background: #007F96;
 }
 
-.combo-box .list-cell:filled:selected, .combo-box .list-cell:filled:selected:hover {
+.combo-box .list-cell:filled:selected,
+.combo-box .list-cell:filled:selected:hover {
     -fx-background-color: #006377;
     -fx-text-fill: #ffffff;
     -fx-control-inner-background: #007F96;
@@ -138,7 +128,6 @@
 
 .combo-box .list-view {
     -fx-background-color: #006377;
-
 }
 
 .combo-box .list-cell {
@@ -150,13 +139,11 @@
     -fx-background-color: #005468;
 }
 
-
 .combo-box-base {
     -fx-background-color: #006377;
     -fx-text-fill: #ffffff;
     -fx-mark-color: #ffffff;
 }
-
 
 .combo-box-popup .list-view {
     -fx-background-color: #006377;
@@ -172,7 +159,6 @@
     -fx-background-color: #006377;
     -fx-text-fill: #ffffff;
 }
-
 
 .combo-box .arrow-button {
     -fx-background-color: #006377;
@@ -194,4 +180,105 @@
 .myDialog .content-panel {
     -fx-background-color: #006377;
     -fx-text-fill: #ffffff;
+}
+
+.hyperlink {
+    -fx-text-fill: #ffffff;
+    -fx-underline: true;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #2196F3;
+}
+
+.hyperlink:visited {
+    -fx-text-fill: #BBDEFB;
+}
+
+.login-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: #333;
+}
+
+.login-text,
+.login-password {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 40px;
+    -fx-border-color: transparent;
+    -fx-border-width: 2;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+    -fx-padding: 4px 10px;
+}
+
+.login-text:focused,
+.login-password:focused {
+    -fx-border-color: #48545f;
+    -fx-border-width: 2px;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5px;
+}
+
+.login-text:hover,
+.login-password:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);
+}
+
+.login-text,
+.login-password {
+    -fx-font-size: 14px;
+}
+
+.login-button {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 40px;
+    -fx-background-color: #323a48;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+}
+
+.login-button:hover {
+    -fx-background-color: #48545f;
+}
+
+.text-field,
+.text-area {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: black;
+    -fx-prompt-text-fill: derive(-fx-text-fill, 50%);
+}
+
+
+
+.date-picker {
+    -fx-background-color: #017286;
+    -fx-control-inner-background: #017286;
+    -fx-text-fill: #ffffff;
+}
+
+.date-picker .button {
+    -fx-background-color: #017286;
+    -fx-text-fill: #ffffff;
+    -fx-mark-color: #ffffff;
+}
+
+.date-picker .button:hover {
+    -fx-background-color: #005468;
+}
+
+.date-picker .month-year-pane,
+.date-picker .day-cell,
+.date-picker .day-cell:focused,
+.date-picker .day-cell:selected,
+.date-picker .day-cell:selected:hover {
+    -fx-background-color: #017286;
+    -fx-text-fill: #ffffff;
+}
+
+.date-picker .day-cell:selected,
+.date-picker .day-cell:selected:hover,
+.date-picker .day-cell:focused {
+    -fx-background-color: #005468;
 }

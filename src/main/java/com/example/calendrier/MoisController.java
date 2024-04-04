@@ -33,14 +33,45 @@ public class MoisController {
         loadEventsForMonth();
         updateMonthDisplay();
         HeaderController.setCurrentViewController(this);
+        calendarGrid.sceneProperty().addListener((observable, oldScene, newScene) -> {
+            if (newScene != null) {
+                setupKeyShortcuts(newScene);
+            }
+        });
+    }
+
+    private void setupKeyShortcuts(Scene scene) {
+
+        scene.setOnKeyPressed(null);
+
+
+        scene.setOnKeyPressed(event -> {
+            switch (event.getCode()) {
+                case LEFT:
+                    goToPreviousMonth();
+                    break;
+                case RIGHT:
+                    goToNextMonth();
+                    break;
+                default:
+                    break;
+            }
+        });
     }
 
     private void loadEventsForMonth() {
         List<Event> globalFilteredEvents = HeaderController.getFilteredEventsGlobal();
+        List<Event> personalEvents = HeaderController.getPersonalEvents();
+        List<Event> salleEvents = HeaderController.getFinalSalleEvents();
+
+
         if (globalFilteredEvents != null) {
-            eventsThisMonth = globalFilteredEvents; 
-        } else {
-            eventsThisMonth = IcsReader.readIcsFromUrl(HeaderController.getEventsUrl()); 
+            eventsThisMonth = globalFilteredEvents;
+
+        } else if(personalEvents!=null){ eventsThisMonth=personalEvents; }
+        else if(salleEvents!=null){ eventsThisMonth=salleEvents; }
+        else{
+            eventsThisMonth = IcsReader.readIcsFromUrl(HeaderController.getEventsUrl());
         }
     }
     private void updateMonthDisplay() {
@@ -54,8 +85,8 @@ public class MoisController {
     }
 
     public void updateEvents(List<Event> filteredEvents) {
-        this.eventsThisMonth = filteredEvents; 
-        updateMonthDisplay(); 
+        this.eventsThisMonth = filteredEvents;
+        updateMonthDisplay();
     }
 
 
@@ -68,15 +99,15 @@ public class MoisController {
             int column = (firstDayOfWeekOffset + day - 1) % 7;
             int row = (firstDayOfWeekOffset + day - 1) / 7;
             VBox dayCell = new VBox();
-            dayCell.getStyleClass().add("day-cell"); 
+            dayCell.getStyleClass().add("day-cell");
 
             Label lblDay = new Label(Integer.toString(day));
-            lblDay.getStyleClass().add("day-label"); 
+            lblDay.getStyleClass().add("day-label");
             dayCell.getChildren().add(lblDay);
 
             int eventCount = getEventCountForDate(date);
             Label lblEventCount = new Label(eventCount + " séance" + (eventCount > 1 ? "s" : ""));
-            lblEventCount.getStyleClass().add("event-count-label"); 
+            lblEventCount.getStyleClass().add("event-count-label");
             dayCell.getChildren().add(lblEventCount);
 
             dayCell.setOnMouseClicked(e -> showEventsOfDay(date));
@@ -129,7 +160,7 @@ public class MoisController {
         scrollPane.setPrefWidth(800);
         alert.getDialogPane().setContent(scrollPane);
 
-        
+
         Scene currentScene = calendarGrid.getScene();
         if (currentScene != null) {
             DialogPane dialogPane = alert.getDialogPane();

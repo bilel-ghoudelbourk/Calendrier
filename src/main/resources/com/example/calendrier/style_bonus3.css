@@ -20,7 +20,7 @@
 }
 
 .button:hover {
-    -fx-background-color: #f6d9ff;
+    -fx-background-color: #f6d9ff ;
 }
 
 .combo-box {
@@ -68,12 +68,12 @@
     -fx-border-width: 1;
 }
 
-.event-label:hover {
+.event-label:hover{
     -fx-background-color: #f6d9ff;
 }
 
-.day-cell:hover {
-    -fx-background-color: #f6d9ff;
+.day-cell:hover{
+    -fx-background-color:#f6d9ff;
 }
 
 .event-count-label {
@@ -137,7 +137,7 @@
 }
 
 .combo-box .list-cell:hover {
-    -fx-background-color: #e4ccec;
+    -fx-background-color: #e4ccec
 }
 
 .combo-box-base {
@@ -180,5 +180,135 @@
 
 .myDialog .content-panel {
     -fx-background-color: #fae9ff;
+    -fx-text-fill: black;
+}
+
+.hyperlink {
+    -fx-text-fill: black;
+    -fx-underline: true;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #2196F3;
+}
+
+.hyperlink:visited {
+    -fx-text-fill: purple;
+}
+
+
+
+.login-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: #333;
+}
+
+.login-text, .login-password {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 40px;
+    -fx-border-color: transparent;
+    -fx-border-width: 2;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+    -fx-padding: 4px 10px;
+}
+
+.login-text:focused, .login-password:focused {
+    -fx-border-color: #e4ccec;
+    -fx-border-width: 2px;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5px;
+}
+
+.login-text:hover, .login-password:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);
+}
+
+.login-text, .login-password {
+    -fx-font-size: 14px;
+}
+
+.login-button {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 40px;
+    -fx-background-color: #211f22 ;
+    -fx-text-fill: #e4ccec;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+}
+
+.login-button:hover {
+    -fx-background-color: #7b6f7f;
+}
+
+.text-field {
+    -fx-background-color: #f7deff;
+    -fx-text-fill: black;
+    -fx-prompt-text-fill: derive(-fx-text-fill, 50%);
+}
+
+.text-field:focused {
+    -fx-background-color: #f6d9ff;
+    -fx-border-color: #e4ccec;
+}
+
+.text-area {
+    -fx-background-color: #f7deff;
+    -fx-text-fill: black;
+    -fx-prompt-text-fill: derive(-fx-text-fill, 50%);
+}
+
+.text-area:focused {
+    -fx-background-color: #f6d9ff;
+    -fx-border-color: #e4ccec;
+}
+
+.date-picker {
+    -fx-background-color: #f7deff;
+    -fx-control-inner-background: #f7deff;
+    -fx-text-fill: black;
+}
+
+.date-picker .text-field {
+    -fx-background-color: #f7deff;
+    -fx-text-fill: black;
+}
+
+.date-picker .button {
+    -fx-background-color: #f7deff;
+    -fx-text-fill: black;
+    -fx-mark-color: black;
+}
+
+.date-picker .button:hover {
+    -fx-background-color: #f6d9ff;
+}
+
+.date-picker .month-year-pane {
+    -fx-background-color: #fae9ff;
+}
+
+.date-picker .day-cell {
+    -fx-background-color: #f7deff;
+    -fx-text-fill: black;
+}
+
+.date-picker .day-cell:focused {
+    -fx-background-color: #f6d9ff;
+}
+
+.date-picker .day-cell:selected, .date-picker .day-cell:selected:hover {
+    -fx-background-color: #e4ccec;
+    -fx-text-fill: black;
+}
+
+.date-picker .day-cell {
+    -fx-background-color: #f7deff;
+    -fx-text-fill: #2196F3;
+}
+
+.date-picker .day-cell:selected, .date-picker .day-cell:selected:hover {
+    -fx-background-color: #e4ccec;
     -fx-text-fill: black;
 }

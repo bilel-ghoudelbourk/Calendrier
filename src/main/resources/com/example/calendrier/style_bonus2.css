@@ -105,8 +105,7 @@
     -fx-background-color: #463f59;
 }
 
-.scroll-bar .increment-button,
-.scroll-bar .decrement-button {
+.scroll-bar .increment-button, .scroll-bar .decrement-button {
     -fx-background-color: #685e74;
 }
 
@@ -121,8 +120,7 @@
     -fx-control-inner-background: #312c4a;
 }
 
-.combo-box .list-cell:filled:selected,
-.combo-box .list-cell:filled:selected:hover {
+.combo-box .list-cell:filled:selected, .combo-box .list-cell:filled:selected:hover {
     -fx-background-color: #685e74;
     -fx-text-fill: #ffffff;
     -fx-control-inner-background: #312c4a;
@@ -156,8 +154,7 @@
     -fx-text-fill: #ffffff;
 }
 
-.combo-box-popup .list-cell:filled:selected,
-.combo-box-popup .list-cell:filled:selected:hover {
+.combo-box-popup .list-cell:filled:selected, .combo-box-popup .list-cell:filled:selected:hover {
     -fx-background-color: #685e74;
     -fx-text-fill: #ffffff;
 }
@@ -180,6 +177,133 @@
 }
 
 .myDialog .content-panel {
+    -fx-background-color: #685e74;
+    -fx-text-fill: #ffffff;
+}
+
+.hyperlink {
+    -fx-text-fill: #ffffff;
+    -fx-underline: true;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #2196F3;
+}
+
+.hyperlink:visited {
+    -fx-text-fill: #BBDEFB;
+}
+
+.login-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: #333;
+}
+
+.login-text, .login-password {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 40px;
+    -fx-border-color: transparent;
+    -fx-border-width: 2;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+    -fx-padding: 4px 10px;
+}
+
+.login-text:focused, .login-password:focused {
+    -fx-border-color: #48545f;
+    -fx-border-width: 2px;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5px;
+}
+
+.login-text:hover, .login-password:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);
+}
+
+.login-text, .login-password {
+    -fx-font-size: 14px;
+}
+
+.login-button {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 40px;
+    -fx-background-color: #323a48;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+}
+
+.login-button:hover {
+    -fx-background-color: #48545f;
+}
+
+.text-field {
+    -fx-background-color: #463f59;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: derive(-fx-text-fill, 50%);
+}
+
+.text-field:focused {
+    -fx-background-color: #685e74;
+    -fx-border-color: #897c8f;
+}
+
+.text-area {
+    -fx-background-color: #685e74;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: derive(-fx-text-fill, 50%);
+}
+
+.text-area:focused {
+    -fx-border-color: #897c8f;
+}
+
+.date-picker {
+    -fx-background-color: #463f59;
+    -fx-control-inner-background: #463f59;
+    -fx-text-fill: #ffffff;
+}
+
+.date-picker .text-field {
+    -fx-background-color: #463f59;
+    -fx-text-fill: #ffffff;
+}
+
+.date-picker .button {
+    -fx-background-color: #463f59;
+    -fx-text-fill: #ffffff;
+    -fx-mark-color: #ffffff;
+}
+
+.date-picker .button:hover {
+    -fx-background-color: #685e74;
+}
+
+.date-picker .month-year-pane {
+    -fx-background-color: #312c4a;
+}
+
+.date-picker .day-cell {
+    -fx-background-color: #463f59;
+    -fx-text-fill: #ffffff;
+}
+
+.date-picker .day-cell:focused {
+    -fx-background-color: #685e74;
+}
+
+.date-picker .day-cell:selected, .date-picker .day-cell:selected:hover {
+    -fx-background-color: #897c8f;
+    -fx-text-fill: #ffffff;
+}
+
+.date-picker .day-cell {
+    -fx-background-color: #463f59;
+    -fx-text-fill: #897c8f;
+}
+
+.date-picker .day-cell:selected, .date-picker .day-cell:selected:hover {
     -fx-background-color: #685e74;
     -fx-text-fill: #ffffff;
 }

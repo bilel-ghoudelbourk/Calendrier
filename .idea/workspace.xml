@@ -4,21 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11574210-c0c2-42b8-a0a2-ceceb4ceeb2b" name="Changes" comment="Quelques modifications de logique + L'intégration du mode clair et mode Sombre.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/FilterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/Summary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/filter.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_bonus1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_bonus2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_bonus3.css" afterDir="false" />
+    <list default="true" id="11574210-c0c2-42b8-a0a2-ceceb4ceeb2b" name="Changes" comment="L'ajout de la fonctionnalité d'ajouter un événement dans l'emploi du temps personnel et la réservation pour l'utilisateur enseignant. L'ajout aussi de la possibilité d'envoyer un mail lors du clic sur le nom de l'enseignant + quelques raccourcis.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/AjoutEventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/Preferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/ReservationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/ajoutEvent.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/reservation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/salles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/users.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calendrier/FilterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/FilterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calendrier/HeaderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/HeaderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calendrier/IcsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/IcsReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calendrier/JourController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/JourController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calendrier/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calendrier/MoisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/MoisController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calendrier/SemaineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calendrier/SemaineController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/Header.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/Header.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/filter.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/filter.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_bonus1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_bonus1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_bonus2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_bonus2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_bonus3.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_bonus3.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_dark.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_light.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/calendrier/style_light.css" afterDir="false" />
     </list>
@@ -49,26 +62,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/M1 IA S2/Calendrier/src/main/resources/com/example/calendrier&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/M1 IA S2/Calendrier/src/main/resources/com/example/calendrier",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\M1 IA S2\Calendrier\src\main\resources\com\example\calendrier" />
+      <recent name="D:\M1 IA S2\Calendrier\src\main\java\com\example\calendrier" />
     </key>
   </component>
   <component name="RunManager">
@@ -109,7 +123,9 @@
       <workItem from="1711778159882" duration="1646000" />
       <workItem from="1711862282072" duration="1691000" />
       <workItem from="1712016379426" duration="52000" />
-      <workItem from="1712090251012" duration="1822000" />
+      <workItem from="1712090251012" duration="6414000" />
+      <workItem from="1712180755012" duration="733000" />
+      <workItem from="1712212449266" duration="9298000" />
     </task>
     <task id="LOCAL-00001" summary="Créer la classe Event pour le type des événements, IcsReader pour lire le type de fichiers ICS d'après un fichier ou bien une API, et faire l'affichage graphique d'un calendrier d'une semaine.">
       <option name="closed" value="true" />
@@ -135,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711863543627</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="L'ajout d'autres thèmes + l'intégration de l'affichage par Formation, Enseignant, Salle + L'ajout de la logique des filtres par Matière, Enseignant, Salle, Groupe, Type.">
+      <option name="closed" value="true" />
+      <created>1712092158667</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712092158667</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +169,8 @@
     <MESSAGE value="Créer la classe Event pour le type des événements, IcsReader pour lire le type de fichiers ICS d'après un fichier ou bien une API, et faire l'affichage graphique d'un calendrier d'une semaine." />
     <MESSAGE value="Intégration de l'affichage par Jour et par Mois." />
     <MESSAGE value="Quelques modifications de logique + L'intégration du mode clair et mode Sombre." />
-    <option name="LAST_COMMIT_MESSAGE" value="Quelques modifications de logique + L'intégration du mode clair et mode Sombre." />
+    <MESSAGE value="L'ajout d'autres thèmes + l'intégration de l'affichage par Formation, Enseignant, Salle + L'ajout de la logique des filtres par Matière, Enseignant, Salle, Groupe, Type." />
+    <MESSAGE value="L'ajout de la fonctionnalité d'ajouter un événement dans l'emploi du temps personnel et la réservation pour l'utilisateur enseignant. L'ajout aussi de la possibilité d'envoyer un mail lors du clic sur le nom de l'enseignant + quelques raccourcis." />
+    <option name="LAST_COMMIT_MESSAGE" value="L'ajout de la fonctionnalité d'ajouter un événement dans l'emploi du temps personnel et la réservation pour l'utilisateur enseignant. L'ajout aussi de la possibilité d'envoyer un mail lors du clic sur le nom de l'enseignant + quelques raccourcis." />
   </component>
 </project>

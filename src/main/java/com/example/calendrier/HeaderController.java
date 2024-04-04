@@ -1,14 +1,25 @@
 package com.example.calendrier;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.stage.Modality;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 
 
 public class HeaderController {
@@ -29,14 +40,60 @@ public class HeaderController {
     }
 
 
+    public static void setPersonalEvents(List<Event> personalEvents) {
+        HeaderController.personalEvents = personalEvents;
+    }
 
-    private static List<Event> filteredEventsGlobal = null; 
+    private static List<Event> filteredEventsGlobal = null;
     public static void updateFilteredEventsGlobal(List<Event> filteredEvents) {
-        filteredEventsGlobal = filteredEvents; 
+        filteredEventsGlobal = filteredEvents;
     }
 
     public static List<Event> getFilteredEventsGlobal() {
-        return filteredEventsGlobal; 
+        return filteredEventsGlobal;
+    }
+
+    public static List<Event> getPersonalEvents() {
+        return personalEvents;
+    }
+
+    private static List<Event> personalEvents = null;
+
+    public static List<Event> getFinalSalleEvents() {
+        return finalSalleEvents;
+    }
+
+    private static List<Event> finalSalleEvents=null;
+
+    private List<Event> fetchEventsForSalle(String salle) {
+        String eventsUrl;
+        switch (salle){
+            case "Amphi Ada":
+                eventsUrl ="https://edt-api.univ-avignon.fr/api/exportAgenda/salle/def502004ad8994efaea20cc307f258ea6940659048992f8712fea82dec40dcef9abb3370496d6f4a5156e1c04d131777bebfd1376d5817914a63b8ba72e1cc80559be6094a8a4689bdf30d27f2da7160deed0c85d15fc8be99cc2ac";
+                break;
+            case "Amphi Blaise":
+                eventsUrl ="https://edt-api.univ-avignon.fr/api/exportAgenda/salle/def50200dc3d0adee5f98911a8bd365e66f942778f7a2244539c829387654844bd3b144c4de653625ed4a641a7a82d4b60a7df71c474d50b3240dae876e4168e09ad94985081177a0294577f00a78b40dcf42fb13566fb3ee40efc8cca7afe";
+                break;
+            case "S5 = C 024":
+                eventsUrl ="https://edt-api.univ-avignon.fr/api/exportAgenda/salle/def50200ab96ed3b7d4b0f5c3d44a46642e5654a8e9fdabc731a94ede5b6807f053b363b0e27e30b1d83dbccfb1d42dd1bee05093463ad4af955564c23e91ac733add95c456d1cc24979ac126c4559017c6c2b3f00c12a12ba8dc0";
+                break;
+            case "Stat 5 = Info - C 130":
+                eventsUrl ="https://edt-api.univ-avignon.fr/api/exportAgenda/salle/def5020055568aa88e82405e8ab383ff65f0002f62035a1c938ca9c4f7b858b8f2af3cc2a9ab5b51602951286aa7423fb84867330918a2610331b8dde6ab047a498f6f8cf7b94feac704f8702a394e92ca557afe27fdcd62bdb5769325b2";
+                break;
+            default:
+
+                return new ArrayList<>();
+        }
+
+        try {
+
+            return IcsReader.readIcsFromUrl(eventsUrl);
+        } catch (Exception e) {
+
+
+            e.printStackTrace();
+            return new ArrayList<>();
+        }
     }
 
 
@@ -54,6 +111,16 @@ public class HeaderController {
     private ComboBox<String> salleComboBox;
     @FXML
     private ComboBox<String> enseignantComboBox;
+    @FXML
+    private Button reservationButton;
+    @FXML
+    private Button ajoutEvent;
+
+
+    User currentUser = LoginController.getCurrentUser();
+
+
+
 
     @FXML
     private void initialize() {
@@ -66,11 +133,12 @@ public class HeaderController {
         formationComboBox.getItems().addAll("Formation", "M1-IA-IL-Cla","M1-IA-IL-Alt", "M1-ILSEN-Cla","M1-ILSEN-Alt","M1-SICOM-Cla","M1-SICOM-Alt", "autres-...");
         formationComboBox.getSelectionModel().select("Formation");
 
-        salleComboBox.getItems().addAll("Salle", "Amphi Ada","Amphi Blaise","S5 = C 024","Stat 5 = Info - C 130", "autres-...");
+        salleComboBox.getItems().addAll("Salle","Amphi Blaise","S5 = C 024","Stat 5 = Info - C 130", "autres-...");
         salleComboBox.getSelectionModel().select("Salle");
 
         enseignantComboBox.getItems().addAll("Enseignant", "Cecillon Noe", "autres-...");
         enseignantComboBox.getSelectionModel().select("Enseignant");
+        adjustForCurrentUser();
 
         viewComboBox.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
             if (!newValue.isEmpty()) {
@@ -123,11 +191,103 @@ public class HeaderController {
         });
 
 
+        viewComboBox.sceneProperty().addListener((observable, oldScene, newScene) -> {
+            if (newScene != null) {
+                setupSceneShortcuts(newScene);
+            }
+        });
+
+
+    }
+
+    private void setupSceneShortcuts(Scene scene) {
+
+        scene.addEventHandler(KeyEvent.KEY_PRESSED, event -> {
+            if (event.isControlDown() && event.getCode() == KeyCode.F) {
+                openFilterWindow();
+            } else if (event.isControlDown() && event.getCode() == KeyCode.R && currentUser.getType().equals("enseignant")) {
+                handleReservationAction();
+            } else if (event.isControlDown() && event.getCode() == KeyCode.A) {
+                ajoutEventAction();
+            } else if (event.isControlDown() && event.getCode() == KeyCode.S) {
+                userEventsAction();
+            }
+            event.consume();
+        });
+    }
+
+    public void adjustForCurrentUser() {
+        User currentUser = LoginController.getCurrentUser();
+
+        if (currentUser != null && "enseignant".equals(currentUser.getType())) {
+            reservationButton.setVisible(true);
+        } else {
+            reservationButton.setVisible(false);
+        }
+    }
+
+
+    @FXML
+    private void userEventsAction(){
+        filteredEventsGlobal=null;
+        EVENTS_URL = null;
+        personalEvents = null;
+        finalSalleEvents=null;
+        personalEvents = UserManager.readEventsFromUserInJsonFile(currentUser.getUsername(), "src/main/resources/com/example/calendrier/users.json");
+        ajoutEvent.setVisible(true);
+        Object currentView = getCurrentViewController();
+        if (currentView instanceof MoisController) {
+            ((MoisController) currentView).updateEvents(personalEvents);
+        } else if (currentView instanceof SemaineController) {
+            ((SemaineController) currentView).updateEvents(personalEvents);
+        } else if (currentView instanceof JourController) {
+            ((JourController) currentView).updateEvents(personalEvents);
+        }
+    }
+
+    @FXML
+    private void handleReservationAction() {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("reservation.fxml"));
+            Parent root = fxmlLoader.load();
+            ReservationController.setParentController(this);
+            Stage stage = new Stage();
+            stage.initModality(Modality.APPLICATION_MODAL);
+            stage.setTitle("Reservation");
+            Scene scene = new Scene(root);
+            String css = this.viewComboBox.getScene().getStylesheets().get(0);
+            scene.getStylesheets().add(css);
+            stage.setScene(scene);
+            stage.show();
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @FXML
+    private void ajoutEventAction() {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ajoutEvent.fxml"));
+            Parent root = fxmlLoader.load();
+            AjoutEventController.setParentController(this);
+            Stage stage = new Stage();
+            stage.initModality(Modality.APPLICATION_MODAL);
+            stage.setTitle("Ajouter un evenement");
+            Scene scene = new Scene(root);
+            String css = this.viewComboBox.getScene().getStylesheets().get(0);
+            scene.getStylesheets().add(css);
+            stage.setScene(scene);
+            stage.show();
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
     }
 
     private void changeFormation(String formation){
         filteredEventsGlobal=null;
         EVENTS_URL = null;
+        personalEvents = null;
+        finalSalleEvents=null;
         switch (formation){
             case "M1-IA-IL-Cla":
                 EVENTS_URL = "https://edt-api.univ-avignon.fr/api/exportAgenda/tdoption/def5020057410cf5c853a924037ce2629db4bc0fe3bd0382e5a07e7e433edd7c7b6a120b7b2c13079afe5493fb79969be2d4786ffcca7abeca404df672aa7001c3e5f252d5b94a390dd452cb7a356d3d6b9682f6c1c3ee5b";
@@ -165,6 +325,8 @@ public class HeaderController {
     private void changeEnseignant(String enseignant){
         filteredEventsGlobal=null;
         EVENTS_URL = null;
+        personalEvents = null;
+        finalSalleEvents=null;
         switch (enseignant){
             case "Cecillon Noe":
                 EVENTS_URL = "https://edt-api.univ-avignon.fr/api/exportAgenda/enseignant/def5020014cf744f63f7181931e243c5139c5d8427de488f3da5b30b52905edfe9de85e8da750e291f852c095f6fd05f93658cbbf3260bf1308a84c444accdb9ab8f67de5f5758e0b59200e3c78068a677fc5055644c4635";
@@ -187,31 +349,32 @@ public class HeaderController {
     private void changeSalle(String salle){
         filteredEventsGlobal=null;
         EVENTS_URL = null;
+        personalEvents = null;
+
         switch (salle){
-            case "Amphi Ada":
-                EVENTS_URL ="https://edt-api.univ-avignon.fr/api/exportAgenda/salle/def502004ad8994efaea20cc307f258ea6940659048992f8712fea82dec40dcef9abb3370496d6f4a5156e1c04d131777bebfd1376d5817914a63b8ba72e1cc80559be6094a8a4689bdf30d27f2da7160deed0c85d15fc8be99cc2ac";
-                break;
             case "Amphi Blaise":
-                EVENTS_URL ="https://edt-api.univ-avignon.fr/api/exportAgenda/salle/def50200dc3d0adee5f98911a8bd365e66f942778f7a2244539c829387654844bd3b144c4de653625ed4a641a7a82d4b60a7df71c474d50b3240dae876e4168e09ad94985081177a0294577f00a78b40dcf42fb13566fb3ee40efc8cca7afe";
+                finalSalleEvents=null;
+                finalSalleEvents=mergeSalle(getEventsForSalle("Amphi Blaise","src/main/resources/com/example/calendrier/salles.json"),fetchEventsForSalle("Amphi Blaise"));
                 break;
             case "S5 = C 024":
-                EVENTS_URL ="https://edt-api.univ-avignon.fr/api/exportAgenda/salle/def50200ab96ed3b7d4b0f5c3d44a46642e5654a8e9fdabc731a94ede5b6807f053b363b0e27e30b1d83dbccfb1d42dd1bee05093463ad4af955564c23e91ac733add95c456d1cc24979ac126c4559017c6c2b3f00c12a12ba8dc0";
+                finalSalleEvents=null;
+                finalSalleEvents=mergeSalle(getEventsForSalle("S5 = C 024","src/main/resources/com/example/calendrier/salles.json"),fetchEventsForSalle("S5 = C 024"));
                 break;
             case "Stat 5 = Info - C 130":
-                EVENTS_URL ="https://edt-api.univ-avignon.fr/api/exportAgenda/salle/def5020055568aa88e82405e8ab383ff65f0002f62035a1c938ca9c4f7b858b8f2af3cc2a9ab5b51602951286aa7423fb84867330918a2610331b8dde6ab047a498f6f8cf7b94feac704f8702a394e92ca557afe27fdcd62bdb5769325b2";
+                finalSalleEvents=null;
+                finalSalleEvents=mergeSalle(getEventsForSalle("Stat 5 = Info - C 130","src/main/resources/com/example/calendrier/salles.json"),fetchEventsForSalle("Stat 5 = Info - C 130"));
                 break;
+            default :
+                finalSalleEvents=null;
         }
 
-        if (EVENTS_URL != null) {
-
-            Object viewController = getCurrentViewController();
-            if (viewController instanceof MoisController) {
-                ((MoisController) viewController).refreshEvents();
-            } else if (viewController instanceof SemaineController) {
-                ((SemaineController) viewController).refreshEvents();
-            } else if (viewController instanceof JourController) {
-                ((JourController) viewController).refreshEvents();
-            }
+        Object currentView = getCurrentViewController();
+        if (currentView instanceof MoisController) {
+            ((MoisController) currentView).updateEvents(finalSalleEvents);
+        } else if (currentView instanceof SemaineController) {
+            ((SemaineController) currentView).updateEvents(finalSalleEvents);
+        } else if (currentView instanceof JourController) {
+            ((JourController) currentView).updateEvents(finalSalleEvents);
         }
 
     }
@@ -272,7 +435,6 @@ public class HeaderController {
         }
     }
 
-
     @FXML
     private void openFilterWindow() {
         try {
@@ -280,22 +442,101 @@ public class HeaderController {
             Parent root = fxmlLoader.load();
 
             Stage stage = new Stage();
-            stage.initModality(Modality.APPLICATION_MODAL); 
+            stage.initModality(Modality.APPLICATION_MODAL);
             stage.setTitle("Filtre");
 
-            
+
             Scene scene = new Scene(root);
 
-            
-            String css = this.viewComboBox.getScene().getStylesheets().get(0); 
+
+            String css = this.viewComboBox.getScene().getStylesheets().get(0);
             scene.getStylesheets().add(css);
 
             stage.setScene(scene);
-            stage.showAndWait(); 
+            stage.showAndWait();
         } catch(Exception e) {
             e.printStackTrace();
         }
     }
+
+
+    public static List<Event> getEventsForSalle(String salleNom, String filePath) {
+        List<Event> eventsList = new ArrayList<>();
+        try {
+
+            String content = new String(Files.readAllBytes(Paths.get(filePath)));
+            JSONObject root = new JSONObject(content);
+
+
+            JSONArray salles = root.getJSONArray("salles");
+            for (int i = 0; i < salles.length(); i++) {
+                JSONObject salle = salles.getJSONObject(i);
+                if (salle.getString("nom").equals(salleNom)) {
+
+                    JSONArray events = salle.getJSONArray("events");
+                    for (int j = 0; j < events.length(); j++) {
+                        JSONObject eventObj = events.getJSONObject(j);
+                        Event event = new Event(
+                                eventObj.getString("summary"),
+                                LocalDateTime.parse(eventObj.getString("startDateTime")),
+                                LocalDateTime.parse(eventObj.getString("endDateTime")),
+                                eventObj.getString("location")
+                        );
+                        eventsList.add(event);
+                    }
+                    break;
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return eventsList;
+    }
+
+    public static List<Event> mergeSalle(List<Event> e1, List<Event> e2){
+        return Stream.concat(e1.stream(), e2.stream())
+                .distinct()
+                .collect(Collectors.toList());
+    }
+
+    @FXML
+    private void handleLogout() {
+        try {
+
+            currentUser = null;
+            filteredEventsGlobal = null;
+            personalEvents = null;
+            finalSalleEvents = null;
+
+
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/calendrier/login.fxml"));
+            Parent root = loader.load();
+
+
+            Scene scene = new Scene(root, 400, 600);
+
+            scene.getStylesheets().clear();
+            String css = getClass().getResource("/com/example/calendrier/style_dark.css").toExternalForm();
+            scene.getStylesheets().add(css);
+
+            Stage currentStage = (Stage) viewComboBox.getScene().getWindow();
+            currentStage.close();
+
+
+            Stage newStage = new Stage();
+            newStage.setScene(scene);
+
+
+            newStage.setResizable(false);
+
+
+            newStage.show();
+        } catch (Exception e) {
+            e.printStackTrace();
+
+        }
+    }
+
 
 
 

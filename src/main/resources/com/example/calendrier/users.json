@@ -1,0 +1,2202 @@
+{"users": [
+  {
+    "password": "user",
+    "preferences": {
+      "salle": "",
+      "theme": "Mode Sombre",
+      "typeAffichage": "Par Mois",
+      "formation": "M1-IA-IL-Cla",
+      "enseignant": ""
+    },
+    "type": "etudiant",
+    "events": [
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-09-22T14:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-09-22T16:00"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA - TP",
+        "startDateTime": "2023-09-15T08:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-09-15T10:00"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-09-27T16:00",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-09-27T17:30"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-11-16T16:00",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-11-16T17:30"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-10-05T08:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-10-05T10:00"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-10-26T10:00",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-10-26T11:30"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA - TP",
+        "startDateTime": "2023-11-23T16:00",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-11-23T17:30"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-11-30T08:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-11-30T10:00"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA - TP",
+        "startDateTime": "2023-11-28T08:30",
+        "location": "S1 = C 042 Nodes",
+        "endDateTime": "2023-11-28T10:00"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-12-19T08:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-12-19T10:00"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-10-12T10:00",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-10-12T11:30"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - Evaluation",
+        "startDateTime": "2023-11-17T08:30",
+        "location": "Amphi Blaise",
+        "endDateTime": "2023-11-17T10:00"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - Evaluation",
+        "startDateTime": "2024-01-12T16:00",
+        "location": "Amphi Blaise",
+        "endDateTime": "2024-01-12T17:30"
+      },
+      {
+        "summary": "UCE 2 MANAGEMENT PAR LES PROC - MARTIN Yannis - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - CM",
+        "startDateTime": "2023-09-21T10:00",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-09-21T13:00"
+      },
+      {
+        "summary": "UCE 2 MANAGEMENT PAR LES PROC - PUY CAZCARRA Emmanuel - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - CM",
+        "startDateTime": "2023-09-15T10:00",
+        "location": "S5 = C 024",
+        "endDateTime": "2023-09-15T13:00"
+      },
+      {
+        "summary": "UCE 2 MANAGEMENT PAR LES PROC - MARTIN Yannis - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - CM",
+        "startDateTime": "2023-12-12T14:30",
+        "location": "Amphi Blaise",
+        "endDateTime": "2023-12-12T16:00"
+      },
+      {
+        "summary": "UCE 2 MANAGEMENT PAR LES PROC - PUY CAZCARRA Emmanuel - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - CM",
+        "startDateTime": "2023-11-06T16:00",
+        "location": "Amphi Blaise",
+        "endDateTime": "2023-11-06T19:00"
+      },
+      {
+        "summary": "UCE 2 MANAGEMENT PAR LES PROC - PUY CAZCARRA Emmanuel - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - CM",
+        "startDateTime": "2023-11-16T11:30",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-11-16T13:00"
+      },
+      {
+        "summary": "UCE 2 MANAGEMENT PAR LES PROC - PUY CAZCARRA Emmanuel - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - CM",
+        "startDateTime": "2023-12-07T10:00",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-12-07T13:00"
+      },
+      {
+        "summary": "UCE 2 MANAGEMENT PAR LES PROC - MARTIN Yannis - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - CM",
+        "startDateTime": "2023-12-12T10:00",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-12-12T13:00"
+      },
+      {
+        "summary": "UCE 2 MANAGEMENT PAR LES PROC - MARTIN Yannis, PUY CAZCARRA Emmanuel - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - Evaluation",
+        "startDateTime": "2024-01-10T13:00",
+        "location": "Amphi Blaise",
+        "endDateTime": "2024-01-10T14:30"
+      },
+      {
+        "summary": "UCE 3 GESTION DE PROJET - COSTA Jean-pierre - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - CM",
+        "startDateTime": "2023-09-14T13:00",
+        "location": "Amphi Blaise",
+        "endDateTime": "2023-09-14T16:00"
+      },
+      {
+        "summary": "UCE 3 GESTION DE PROJET - COSTA Jean-pierre - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2, M1-SICOM-Alt, M1-SICOM-Cla - CM",
+        "startDateTime": "2023-09-14T16:00",
+        "location": "Amphi Blaise",
+        "endDateTime": "2023-09-14T19:00"
+      },
+      {
+        "summary": "UCE 3 GESTION DE PROJET - COSTA Jean-pierre - M1-IA-IL-CLA, M1-IA-SI-CLA - TD",
+        "startDateTime": "2023-09-21T16:00",
+        "location": "S4 = C 034",
+        "endDateTime": "2023-09-21T19:00"
+      },
+      {
+        "summary": "UCE 3 GESTION DE PROJET - COSTA Jean-pierre - M1-IA-IL-CLA, M1-IA-SI-CLA - TD",
+        "startDateTime": "2023-09-26T13:00",
+        "location": "S8 = C 030",
+        "endDateTime": "2023-09-26T16:00"
+      },
+      {
+        "summary": "UCE 3 GESTION DE PROJET - COSTA Jean-pierre - M1-IA-IL-CLA, M1-IA-SI-CLA - TD",
+        "startDateTime": "2023-10-03T13:00",
+        "location": "S8 = C 030",
+        "endDateTime": "2023-10-03T16:00"
+      },
+      {
+        "summary": "UCE 3 GESTION DE PROJET - COSTA Jean-pierre - M1-IA-IL-CLA, M1-IA-SI-CLA - TD",
+        "startDateTime": "2023-10-11T13:00",
+        "location": "S4 = C 034",
+        "endDateTime": "2023-10-11T16:00"
+      },
+      {
+        "summary": "UCE 4 APPLICATION DE MSI - MARTIN Yannis - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-10-11T16:00",
+        "location": "Stat 6 = Info - C 129",
+        "endDateTime": "2023-10-11T19:00"
+      },
+      {
+        "summary": "UCE 4 APPLICATION DE MSI - MARTIN Yannis - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-10-25T08:30",
+        "location": "Stat 6 = Info - C 129",
+        "endDateTime": "2023-10-25T11:30"
+      },
+      {
+        "summary": "UCE 1 DESIGN PATTERN AVANCE - NABITZ Sophie - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1 - CM",
+        "startDateTime": "2023-09-13T16:00",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-09-13T17:30"
+      },
+      {
+        "summary": "UCE 1 DESIGN PATTERN AVANCE - NABITZ Sophie - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1 - CM",
+        "startDateTime": "2023-09-20T16:00",
+        "location": "Amphi Blaise",
+        "endDateTime": "2023-09-20T19:00"
+      },
+      {
+        "summary": "UCE 4 APPLICATION DE MSI - MARTIN Yannis - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-11-08T14:30",
+        "location": "Stat 6 = Info - C 129",
+        "endDateTime": "2023-11-08T17:30"
+      },
+      {
+        "summary": "UCE 2 PROGRAMMATION PARALLELE - LABRAK Yanis - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - TP",
+        "startDateTime": "2023-09-14T08:30",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2023-09-14T11:30"
+      },
+      {
+        "summary": "UCE 2 PROGRAMMATION PARALLELE - LABRAK Yanis - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-09-26T08:30",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2023-09-26T11:30"
+      },
+      {
+        "summary": "UCE 2 PROGRAMMATION PARALLELE - LABRAK Yanis - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-10-03T08:30",
+        "location": "Stat 4 = Info - C 131",
+        "endDateTime": "2023-10-03T11:30"
+      },
+      {
+        "summary": "UCE 2 PROGRAMMATION PARALLELE - LABRAK Yanis - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-09-20T13:00",
+        "location": "Stat 8 = Info - C 127",
+        "endDateTime": "2023-09-20T16:00"
+      },
+      {
+        "summary": "UCE 2 PROGRAMMATION PARALLELE - LABRAK Yanis - M1-IA-IL-CLA, M1-IA-SI-CLA - Evaluation",
+        "startDateTime": "2023-10-23T13:00",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2023-10-23T16:00"
+      },
+      {
+        "summary": "UCE 4 APPLICATION DE CONCEPTI - ROUVIER Mickael - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - TP",
+        "startDateTime": "2023-10-16T16:00",
+        "location": "Stat 5 = Info - C 130, Stat 6 = Info - C 129",
+        "endDateTime": "2023-10-16T19:00"
+      },
+      {
+        "summary": "UCE 4 APPLICATION DE CONCEPTI - ROUVIER Mickael - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - TP",
+        "startDateTime": "2023-11-15T16:00",
+        "location": "Stat 6 = Info - C 129",
+        "endDateTime": "2023-11-15T19:00"
+      },
+      {
+        "summary": "UCE 4 APPLICATION DE CONCEPTI - ROUVIER Mickael - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - TP",
+        "startDateTime": "2023-12-18T13:00",
+        "location": "Stat 8 = Info - C 127, Stat9 = Info - C 026",
+        "endDateTime": "2023-12-18T16:00"
+      },
+      {
+        "summary": "UCE 1 PROJET - HADDAD Majed, VERNET Mathilde - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2, M1-SICOM-Cla - TD - Présentation des projets de M1 classiques",
+        "startDateTime": "2023-09-22T08:30",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-09-22T13:00"
+      },
+      {
+        "summary": "UCE 1 PROJET - HADDAD Majed, VERNET Mathilde - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2, M1-SICOM-Cla - TD - 2ème rencontre intermédiaire des projets de M1 classiques",
+        "startDateTime": "2023-11-16T10:00",
+        "location": "S4 = C 034",
+        "endDateTime": "2023-11-16T11:30"
+      },
+      {
+        "summary": "UCE 1 PROJET - HADDAD Majed, VERNET Mathilde - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2, M1-SICOM-Cla - TD - 1ère rencontre intermédiaire des projets de M1 classiques",
+        "startDateTime": "2023-10-19T10:00",
+        "location": "S5 = C 024",
+        "endDateTime": "2023-10-19T13:00"
+      },
+      {
+        "summary": "UCE 2 INSERTION PROFESSIONNEL - BROCHARD Marc - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - TD - NE PAS DEPLACER",
+        "startDateTime": "2023-11-20T10:00",
+        "location": "S5 = C 024",
+        "endDateTime": "2023-11-20T13:00"
+      },
+      {
+        "summary": "UCE 2 INSERTION PROFESSIONNEL - BROCHARD Marc - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - TD - NE PAS DEPLACER",
+        "startDateTime": "2023-11-29T08:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2023-11-29T11:30"
+      },
+      {
+        "summary": "UCE 2 INSERTION PROFESSIONNEL - BROCHARD Marc - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - TD - NE PAS DEPLACER",
+        "startDateTime": "2023-11-28T14:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2023-11-28T17:30"
+      },
+      {
+        "summary": "UCE 2 INSERTION PROFESSIONNEL - BROCHARD Marc - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - TD - NE PAS DEPLACER",
+        "startDateTime": "2023-12-05T10:00",
+        "location": "S5 = C 024",
+        "endDateTime": "2023-12-05T11:30"
+      },
+      {
+        "summary": "UCE 1 INTRODUCTION A L'INTELL - LEFEVRE Fabrice - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-09-12T08:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2023-09-12T11:30"
+      },
+      {
+        "summary": "UCE 1 INTRODUCTION A L'INTELL - LEFEVRE Fabrice - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-09-19T08:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2023-09-19T11:30"
+      },
+      {
+        "summary": "UCE 1 INTRODUCTION A L'INTELL - LEFEVRE Fabrice - M1-IA-IL-ALT, M1-IA-IL-CLA - TP",
+        "startDateTime": "2023-10-20T10:00",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2023-10-20T11:30"
+      },
+      {
+        "summary": "UCE 2 PROGRAMMATION PARALLELE - LABRAK Yanis - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-10-17T10:00",
+        "location": "Stat 2 = Info - C 136",
+        "endDateTime": "2023-10-17T13:00"
+      },
+      {
+        "summary": "UCE 2 PROGRAMMATION PARALLELE - LABRAK Yanis - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-10-16T08:30",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2023-10-16T11:30"
+      },
+      {
+        "summary": "UCE 1 INTRODUCTION A L'INTELL - LEFEVRE Fabrice - M1-IA-IL-ALT, M1-IA-IL-CLA - TP",
+        "startDateTime": "2023-10-10T14:30",
+        "location": "Stat 8 = Info - C 127",
+        "endDateTime": "2023-10-10T16:00"
+      },
+      {
+        "summary": "UCE 1 DESIGN PATTERN AVANCE - NABITZ Sophie - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-10-26T16:00",
+        "location": "Stat 7 = Info - C 128",
+        "endDateTime": "2023-10-26T19:00"
+      },
+      {
+        "summary": "UCE 1 INTRODUCTION A L'INTELL - LEFEVRE Fabrice - M1-IA-IL-ALT, M1-IA-IL-CLA - TP",
+        "startDateTime": "2023-11-08T10:00",
+        "location": "Unknown Location",
+        "endDateTime": "2023-11-08T13:00"
+      },
+      {
+        "summary": "UCE 2 APPRENTISSAGE NON-SUPER - LABATUT Vincent - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-09-15T17:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2023-09-15T19:00"
+      },
+      {
+        "summary": "UCE 2 APPRENTISSAGE NON-SUPER - LABATUT Vincent - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-09-13T17:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2023-09-13T19:00"
+      },
+      {
+        "summary": "UCE 2 APPRENTISSAGE NON-SUPER - LABATUT Vincent - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-10-16T14:30",
+        "location": "Unknown Location",
+        "endDateTime": "2023-10-16T16:00"
+      },
+      {
+        "summary": "UCE 2 APPRENTISSAGE NON-SUPER - LABATUT Vincent - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-11-09T10:00",
+        "location": "S6 = C 022",
+        "endDateTime": "2023-11-09T11:30"
+      },
+      {
+        "summary": "UCE 2 APPRENTISSAGE NON-SUPER - LABATUT Vincent - M1-IA-IL-ALT, M1-IA-IL-CLA - TD",
+        "startDateTime": "2023-10-13T17:30",
+        "location": "S7 = C 032",
+        "endDateTime": "2023-10-13T19:00"
+      },
+      {
+        "summary": "UCE 2 APPRENTISSAGE NON-SUPER - LABATUT Vincent - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-09-18T08:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2023-09-18T10:00"
+      },
+      {
+        "summary": "UCE 2 APPRENTISSAGE NON-SUPER - LABATUT Vincent - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-10-09T08:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2023-10-09T10:00"
+      },
+      {
+        "summary": "UCE 2 APPRENTISSAGE NON-SUPER - LABATUT Vincent - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-12-04T08:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2023-12-04T10:00"
+      },
+      {
+        "summary": "UCE 2 APPRENTISSAGE NON-SUPER - LABATUT Vincent - M1-IA-IL-ALT, M1-IA-IL-CLA - TD",
+        "startDateTime": "2023-12-06T11:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2023-12-06T13:00"
+      },
+      {
+        "summary": "UCE 2 APPRENTISSAGE NON-SUPER - LABATUT Vincent - M1-IA-IL-ALT, M1-IA-IL-CLA - TD",
+        "startDateTime": "2023-12-05T14:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2023-12-05T16:00"
+      },
+      {
+        "summary": "UCE 2 APPRENTISSAGE NON-SUPER - LABATUT Vincent - M1-IA-IL-ALT, M1-IA-IL-CLA - TD",
+        "startDateTime": "2023-11-17T14:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2023-11-17T16:00"
+      },
+      {
+        "summary": "UCE 2 APPRENTISSAGE NON-SUPER - LABATUT Vincent - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-11-14T08:30",
+        "location": "S7 = C 032",
+        "endDateTime": "2023-11-14T10:00"
+      },
+      {
+        "summary": "UCE 2 APPRENTISSAGE NON-SUPER - LABATUT Vincent - M1-IA-IL-ALT, M1-IA-IL-CLA - Evaluation",
+        "startDateTime": "2023-12-21T08:30",
+        "location": "S4 = C 034",
+        "endDateTime": "2023-12-21T10:30"
+      },
+      {
+        "summary": "UCE 3 OPTIMISATION NON-LINEAI - GUEYE Serigne - M1-IA-IL-ALT, M1-IA-IL-CLA - Evaluation",
+        "startDateTime": "2024-01-08T13:00",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-01-08T14:30"
+      },
+      {
+        "summary": "UCE 3 OPTIMISATION NON-LINEAI - GUEYE Serigne - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-11-13T14:30",
+        "location": "Stat 8 = Info - C 127",
+        "endDateTime": "2023-11-13T17:30"
+      },
+      {
+        "summary": "UCE 3 OPTIMISATION NON-LINEAI - GUEYE Serigne - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-12-18T08:30",
+        "location": "Stat9 = Info - C 026",
+        "endDateTime": "2023-12-18T11:30"
+      },
+      {
+        "summary": "UCE 3 OPTIMISATION NON-LINEAI - GUEYE Serigne - M1-IA-IL-ALT, M1-IA-IL-CLA - TP",
+        "startDateTime": "2023-12-15T08:30",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-12-15T10:00"
+      },
+      {
+        "summary": "UCE 3 OPTIMISATION NON-LINEAI - GUEYE Serigne - M1-IA-IL-ALT, M1-IA-IL-CLA - TP",
+        "startDateTime": "2023-12-19T10:00",
+        "location": "Stat9 = Info - C 026",
+        "endDateTime": "2023-12-19T13:00"
+      },
+      {
+        "summary": "UCE 4 TRAITEMENT AUTOMATIQUE - ROUVIER Mickael - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-09-15T14:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2023-09-15T16:00"
+      },
+      {
+        "summary": "UCE 4 TRAITEMENT AUTOMATIQUE - ROUVIER Mickael - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-09-21T14:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2023-09-21T16:00"
+      },
+      {
+        "summary": "UCE 4 TRAITEMENT AUTOMATIQUE - ROUVIER Mickael - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-12-13T11:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2023-12-13T13:00"
+      },
+      {
+        "summary": "UCE 4 TRAITEMENT AUTOMATIQUE - ROUVIER Mickael - M1-IA-IL-ALT, M1-IA-IL-CLA - TP",
+        "startDateTime": "2023-12-15T10:00",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2023-12-15T13:00"
+      },
+      {
+        "summary": "UCE 4 TRAITEMENT AUTOMATIQUE - ROUVIER Mickael - M1-IA-IL-ALT, M1-IA-IL-CLA - Evaluation",
+        "startDateTime": "2024-01-10T08:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-01-10T11:30"
+      },
+      {
+        "summary": "UCE 2 APPRENTISSAGE NON-SUPER - LABATUT Vincent - M1-IA-IL-ALT, M1-IA-IL-CLA - TD",
+        "startDateTime": "2023-09-18T16:00",
+        "location": "S6 = C 022",
+        "endDateTime": "2023-09-18T17:30"
+      },
+      {
+        "summary": "UCE 1 DESIGN PATTERN AVANCE - NABITZ Sophie - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1 - CM",
+        "startDateTime": "2023-10-19T16:00",
+        "location": "Amphi Blaise",
+        "endDateTime": "2023-10-19T19:00"
+      },
+      {
+        "summary": "UCE 4 TRAITEMENT AUTOMATIQUE - ROUVIER Mickael - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-10-16T13:00",
+        "location": "Unknown Location",
+        "endDateTime": "2023-10-16T14:30"
+      },
+      {
+        "summary": "UCE 4 TRAITEMENT AUTOMATIQUE - ROUVIER Mickael - M1-IA-IL-ALT, M1-IA-IL-CLA - TP",
+        "startDateTime": "2023-10-13T13:00",
+        "location": "Stat 4 = Info - C 131",
+        "endDateTime": "2023-10-13T16:00"
+      },
+      {
+        "summary": "UCE 4 APPLICATION DE CONCEPTI - ROUVIER Mickael - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - TP",
+        "startDateTime": "2023-10-26T13:00",
+        "location": "Stat 6 = Info - C 129, Stat 7 = Info - C 128",
+        "endDateTime": "2023-10-26T16:00"
+      },
+      {
+        "summary": "UCE 4 APPLICATION DE CONCEPTI - ROUVIER Mickael - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - TP",
+        "startDateTime": "2024-01-16T10:00",
+        "location": "Stat 1 = Info - C 137, Stat 2 = Info - C 136",
+        "endDateTime": "2024-01-16T13:00"
+      },
+      {
+        "summary": "UCE 3 GESTION DE PROJET - COSTA Jean-pierre - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - Evaluation",
+        "startDateTime": "2024-01-09T16:00",
+        "location": "Amphi Blaise",
+        "endDateTime": "2024-01-09T19:00"
+      },
+      {
+        "summary": "UCE 3 GESTION DE PROJET - COSTA Jean-pierre - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - CM",
+        "startDateTime": "2024-01-09T11:30",
+        "location": "Amphi Ada",
+        "endDateTime": "2024-01-09T13:00"
+      },
+      {
+        "summary": "UCE 2 MANAGEMENT PAR LES PROC - PUY CAZCARRA Emmanuel - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - CM",
+        "startDateTime": "2023-09-18T13:00",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-09-18T16:00"
+      },
+      {
+        "summary": "UCE 2 APPRENTISSAGE NON-SUPER - LABATUT Vincent - M1-IA-IL-ALT, M1-IA-IL-CLA - TD",
+        "startDateTime": "2023-11-16T17:30",
+        "location": "S4 = C 034",
+        "endDateTime": "2023-11-16T19:00"
+      },
+      {
+        "summary": "UCE 2 MANAGEMENT PAR LES PROC - PUY CAZCARRA Emmanuel - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - CM",
+        "startDateTime": "2023-12-13T16:00",
+        "location": "Amphi Blaise",
+        "endDateTime": "2023-12-13T19:00"
+      },
+      {
+        "summary": "UCE 2 MANAGEMENT PAR LES PROC - PUY CAZCARRA Emmanuel - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - Evaluation",
+        "startDateTime": "2023-12-21T11:30",
+        "location": "Amphi Blaise",
+        "endDateTime": "2023-12-21T13:00"
+      },
+      {
+        "summary": "UCE 1 INTRODUCTION A L'INTELL - LEFEVRE Fabrice - M1-IA-IL-ALT, M1-IA-IL-CLA - Evaluation",
+        "startDateTime": "2023-12-12T16:00",
+        "location": "Stat 4 = Info - C 131",
+        "endDateTime": "2023-12-12T17:30"
+      },
+      {
+        "summary": "UCE 2 PROGRAMMATION PARALLELE - ROUVIER Mickael - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - CM",
+        "startDateTime": "2023-09-12T13:00",
+        "location": "Amphi Blaise",
+        "endDateTime": "2023-09-12T14:30"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-11-09T11:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-11-09T13:00"
+      },
+      {
+        "summary": "UCE 1 DESIGN PATTERN AVANCE - NABITZ Sophie - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-10-05T10:00",
+        "location": "Stat 4 = Info - C 131",
+        "endDateTime": "2023-10-05T13:00"
+      },
+      {
+        "summary": "UCE 1 DESIGN PATTERN AVANCE - NABITZ Sophie - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-10-05T14:30",
+        "location": "Stat 7 = Info - C 128",
+        "endDateTime": "2023-10-05T17:30"
+      },
+      {
+        "summary": "UCE 1 DESIGN PATTERN AVANCE - NABITZ Sophie - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1 - CM",
+        "startDateTime": "2023-10-11T08:30",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-10-11T11:30"
+      },
+      {
+        "summary": "UCE 4 TRAITEMENT AUTOMATIQUE - ROUVIER Mickael - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-11-15T08:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2023-11-15T10:00"
+      },
+      {
+        "summary": "UCE 2 APPRENTISSAGE NON-SUPER - LABATUT Vincent - M1-IA-IL-ALT, M1-IA-IL-CLA - TD",
+        "startDateTime": "2023-10-20T14:30",
+        "location": "S4 = C 034",
+        "endDateTime": "2023-10-20T16:00"
+      },
+      {
+        "summary": "UCE 1 DESIGN PATTERN AVANCE - NABITZ Sophie - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1 - Evaluation",
+        "startDateTime": "2023-12-07T17:30",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-12-07T19:00"
+      },
+      {
+        "summary": "UCE 2 APPRENTISSAGE NON-SUPER - LABATUT Vincent - M1-IA-IL-ALT, M1-IA-IL-CLA - TD",
+        "startDateTime": "2023-11-15T14:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2023-11-15T16:00"
+      },
+      {
+        "summary": "UCE 1 DESIGN PATTERN AVANCE - NABITZ Sophie - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-10-12T13:00",
+        "location": "Stat 2 = Info - C 136",
+        "endDateTime": "2023-10-12T16:00"
+      },
+      {
+        "summary": "UCE 3 OPTIMISATION NON-LINEAI - GUEYE Serigne - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-12-08T08:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2023-12-08T10:00"
+      },
+      {
+        "summary": "UCE 3 OPTIMISATION NON-LINEAI - GUEYE Serigne - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-11-17T10:00",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-11-17T13:00"
+      },
+      {
+        "summary": "UCE 3 OPTIMISATION NON-LINEAI - GUEYE Serigne - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-12-07T08:30",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-12-07T10:00"
+      },
+      {
+        "summary": "UCE 3 OPTIMISATION NON-LINEAI - GUEYE Serigne - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-12-22T08:30",
+        "location": "Stat9 = Info - C 026",
+        "endDateTime": "2023-12-22T11:30"
+      },
+      {
+        "summary": "UCE 3 OPTIMISATION NON-LINEAI - GUEYE Serigne - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-11-10T13:00",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-11-10T16:00"
+      },
+      {
+        "summary": "UCE 2 INSERTION PROFESSIONNEL - BROCHARD Marc - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - Evaluation - NE PAS DEPLACER",
+        "startDateTime": "2023-12-21T14:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2023-12-21T16:00"
+      },
+      {
+        "summary": "UCE 2 INSERTION PROFESSIONNEL - BROCHARD Marc - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - TD - NE PAS DEPLACER",
+        "startDateTime": "2023-12-22T16:00",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-12-22T19:00"
+      },
+      {
+        "summary": "UCE 4 APPLICATION DE CONCEPTI - ROUVIER Mickael - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - TP",
+        "startDateTime": "2023-11-24T10:00",
+        "location": "CERI, Stat 2 = Info - C 136, Stat 3 = Info - C 135",
+        "endDateTime": "2023-11-24T13:00"
+      },
+      {
+        "summary": "UCE 4 APPLICATION DE CONCEPTI - ROUVIER Mickael - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - TP",
+        "startDateTime": "2023-12-01T10:00",
+        "location": "Stat 1 = Info - C 137, Stat 2 = Info - C 136",
+        "endDateTime": "2023-12-01T13:00"
+      },
+      {
+        "summary": "UCE 4 APPLICATION DE CONCEPTI - ROUVIER Mickael - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - TP",
+        "startDateTime": "2023-12-08T10:00",
+        "location": "Stat 1 = Info - C 137, Stat 2 = Info - C 136",
+        "endDateTime": "2023-12-08T13:00"
+      },
+      {
+        "summary": "UCE 2 MANAGEMENT PAR LES PROC - MARTIN Yannis - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - CM",
+        "startDateTime": "2023-10-17T16:00",
+        "location": "Amphi Blaise",
+        "endDateTime": "2023-10-17T19:00"
+      },
+      {
+        "summary": "UCE 4 TRAITEMENT AUTOMATIQUE - ROUVIER Mickael - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-10-20T16:00",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-10-20T17:30"
+      },
+      {
+        "summary": "UCE 2 PROGRAMMATION PARALLELE - ROUVIER Mickael - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1 - CM",
+        "startDateTime": "2023-09-19T14:30",
+        "location": "Amphi Blaise",
+        "endDateTime": "2023-09-19T16:00"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-12-06T16:00",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-12-06T17:30"
+      },
+      {
+        "summary": "UCE 2 PROGRAMMATION PARALLELE - ROUVIER Mickael - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - CM",
+        "startDateTime": "2023-09-13T14:30",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-09-13T16:00"
+      },
+      {
+        "summary": "UCE 1 INTRODUCTION A L'INTELL - LEFEVRE Fabrice - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-IA-SI-ALT, M1-IA-SI-CLA - CM",
+        "startDateTime": "2023-10-10T08:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2023-10-10T10:00"
+      },
+      {
+        "summary": "UCE 1 INTRODUCTION A L'INTELL - LEFEVRE Fabrice - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-10-20T08:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2023-10-20T10:00"
+      },
+      {
+        "summary": "UCE 4 APPLICATION DE CONCEPTI - ROUVIER Mickael - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - TP",
+        "startDateTime": "2024-01-12T13:00",
+        "location": "Stat 1 = Info - C 137, Stat 2 = Info - C 136",
+        "endDateTime": "2024-01-12T16:00"
+      },
+      {
+        "summary": "UCE 4 APPLICATION DE CONCEPTI - ROUVIER Mickael - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - TP",
+        "startDateTime": "2023-11-21T10:00",
+        "location": "Stat 6 = Info - C 129, Stat 7 = Info - C 128",
+        "endDateTime": "2023-11-21T13:00"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-10-18T08:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-10-18T10:00"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-12-13T08:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-12-13T10:00"
+      },
+      {
+        "summary": "Reservation de salles - MDHAFFAR Salima - IA-IL-CLA, IA-SI-ALT, IA-SI-CLA, M1 S1, M1-IA-IL-CLA, M1-IA-SI-ALT, M1-IA-SI-CLA, M1-SICOM-Cla, M1IL-CMI-cla, M2 S3, M2IL-Alt, M2IL-Cla, M2IL-Cla-GR1, M2IL-Cla-GR2, M2SI-Cla - Seminaire de recherche LIA - CMI UNIQUEMENT",
+        "startDateTime": "2024-01-18T11:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2024-01-18T13:30"
+      },
+      {
+        "summary": "UCE 1 INTRODUCTION A L'INTELL - LEFEVRE Fabrice - M1-IA-IL-ALT, M1-IA-IL-CLA - Evaluation",
+        "startDateTime": "2023-12-04T13:00",
+        "location": "S1 = C 042 Nodes",
+        "endDateTime": "2023-12-04T19:00"
+      },
+      {
+        "summary": "UCE 1 PROJET - BENSLIMANE Abderrahim, BONASTRE Jean-Francois, FIGUEIREDO Rosa, FREDOUILLE Corinne, GOZLAN Philippe, HADDAD Majed, HAYEL Yezekael, HUET Stephane, JIMENEZ Tania, JOURLIN Pierre, LEFEVRE Fabrice, MORCHID Mohamed, NOCERA Pascal, PUY CAZCARRA Emmanuel, TORRES MORENO Juan manuel, VERNET Mathilde - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-SICOM-Cla - CM/TD - SOUTENANCE",
+        "startDateTime": "2024-01-10T14:30",
+        "location": "AGRB020 ( HDMI ), AGRB021 ( HDMI ), AGRB022 ( HDMI ), AGRB023 ( HDMI )",
+        "endDateTime": "2024-01-10T18:30"
+      },
+      {
+        "summary": "UCE 1 VEILLE TECHNOLOGIQUE - LEFEVRE Fabrice - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-03-22T16:00",
+        "location": "Stat 4 = Info - C 131",
+        "endDateTime": "2024-03-22T17:30"
+      },
+      {
+        "summary": "UE PROJET 2 - BENSLIMANE Abderrahim, BONASTRE Jean-Francois, FIGUEIREDO Rosa, FREDOUILLE Corinne, GOZLAN Philippe, HADDAD Majed, HAYEL Yezekael, HUET Stephane, JIMENEZ Tania, JOURLIN Pierre, LEFEVRE Fabrice, MORCHID Mohamed, NOCERA Pascal, PUY CAZCARRA Emmanuel, TORRES MORENO Juan manuel, VERNET Mathilde - M1-IA-IL-CLA, M1-IA-SI-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2, M1-SICOM-Cla, M1IL-CMI-cla - Oraux - Soutenances de projet Master CERI",
+        "startDateTime": "2024-06-19T08:30",
+        "location": "S2 = C 040, S3 = C 036, S4 = C 034, S7 = C 032",
+        "endDateTime": "2024-06-19T18:00"
+      },
+      {
+        "summary": "UCE 1 DESIGN PATTERN AVANCE - NABITZ Sophie - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-10-25T16:00",
+        "location": "Stat 7 = Info - C 128",
+        "endDateTime": "2023-10-25T19:00"
+      },
+      {
+        "summary": "UCE 4 APPLICATION DE MSI - MARTIN Yannis - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-10-04T13:00",
+        "location": "Stat 6 = Info - C 129",
+        "endDateTime": "2023-10-04T16:00"
+      },
+      {
+        "summary": "UCE 4 APPLICATION DE MSI - MARTIN Yannis - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-10-18T13:00",
+        "location": "Stat 7 = Info - C 128",
+        "endDateTime": "2023-10-18T16:00"
+      },
+      {
+        "summary": "UE PROJET 2 - VERNET Mathilde - M1-IA-IL-CLA, M1-IA-SI-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2, M1-SICOM-Cla - CM/TD - 1ère rencontre",
+        "startDateTime": "2024-03-22T09:00",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-03-22T13:00"
+      },
+      {
+        "summary": "UCE 1 TECHNIQUES DE TEST - FERREIRA Emmanuel - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - CM",
+        "startDateTime": "2024-02-05T08:30",
+        "location": "S4 = C 034",
+        "endDateTime": "2024-02-05T11:30"
+      },
+      {
+        "summary": "UCE 1 TECHNIQUES DE TEST - BONNEFOY Ludovic - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-02-06T13:00",
+        "location": "Stat 7 = Info - C 128",
+        "endDateTime": "2024-02-06T16:00"
+      },
+      {
+        "summary": "UCE 1 TECHNIQUES DE TEST - BONNEFOY Ludovic - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-03-05T13:00",
+        "location": "Stat 2 = Info - C 136",
+        "endDateTime": "2024-03-05T16:00"
+      },
+      {
+        "summary": "UCE 1 TECHNIQUES DE TEST - BONNEFOY Ludovic - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-04-09T08:30",
+        "location": "Stat 4 = Info - C 131",
+        "endDateTime": "2024-04-09T10:00"
+      },
+      {
+        "summary": "UCE 1 TECHNIQUES DE TEST - SALAS Daniel - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - CM",
+        "startDateTime": "2024-01-29T16:00",
+        "location": "S4 = C 034",
+        "endDateTime": "2024-01-29T19:00"
+      },
+      {
+        "summary": "UCE 1 TECHNIQUES DE TEST - SALAS Daniel - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - Evaluation",
+        "startDateTime": "2024-04-15T10:00",
+        "location": "Amphi Ada",
+        "endDateTime": "2024-04-15T11:30"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-02-07T10:00",
+        "location": "S3 = C 036",
+        "endDateTime": "2024-02-07T11:30"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-01-29T10:00",
+        "location": "S4 = C 034",
+        "endDateTime": "2024-01-29T11:30"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-02-01T10:00",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-02-01T11:30"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-02-09T16:00",
+        "location": "S3 = C 036",
+        "endDateTime": "2024-02-09T17:30"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-02-15T10:00",
+        "location": "S3 = C 036",
+        "endDateTime": "2024-02-15T11:30"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-03-08T14:30",
+        "location": "S4 = C 034",
+        "endDateTime": "2024-03-08T16:00"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-03-13T14:30",
+        "location": "S2 = C 040",
+        "endDateTime": "2024-03-13T16:00"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-03-27T14:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2024-03-27T16:00"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-04-04T10:00",
+        "location": "S2 BIS = C 038",
+        "endDateTime": "2024-04-04T11:30"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-04-09T16:00",
+        "location": "S2 BIS = C 038",
+        "endDateTime": "2024-04-09T17:30"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-04-12T14:30",
+        "location": "S2 = C 040",
+        "endDateTime": "2024-04-12T16:00"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-05-02T13:00",
+        "location": "S2 = C 040",
+        "endDateTime": "2024-05-02T14:30"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-04-17T13:00",
+        "location": "S2 = C 040",
+        "endDateTime": "2024-04-17T14:30"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-04-30T13:00",
+        "location": "S2 = C 040",
+        "endDateTime": "2024-04-30T14:30"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-03-29T16:30",
+        "location": "S2 BIS = C 038",
+        "endDateTime": "2024-03-29T18:00"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-02-21T11:30",
+        "location": "S4 = C 034",
+        "endDateTime": "2024-02-21T13:00"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-03-05T08:30",
+        "location": "S4 = C 034",
+        "endDateTime": "2024-03-05T10:00"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-03-12T13:00",
+        "location": "S4 = C 034",
+        "endDateTime": "2024-03-12T14:30"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-03-19T11:30",
+        "location": "S2 = C 040",
+        "endDateTime": "2024-03-19T13:00"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-03-07T16:00",
+        "location": "S7 = C 032",
+        "endDateTime": "2024-03-07T17:30"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-03-13T10:00",
+        "location": "S4 = C 034",
+        "endDateTime": "2024-03-13T11:30"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-03-20T14:30",
+        "location": "S2 = C 040",
+        "endDateTime": "2024-03-20T16:00"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - CARIAS Patrick - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - CM",
+        "startDateTime": "2024-02-13T13:00",
+        "location": "S6 = C 022",
+        "endDateTime": "2024-02-13T16:00"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - CARIAS Patrick - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - CM",
+        "startDateTime": "2024-01-30T08:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2024-01-30T10:00"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - CECILLON Noe - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - CM",
+        "startDateTime": "2024-02-02T08:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-02-02T10:00"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - CECILLON Noe - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - CM",
+        "startDateTime": "2024-02-09T08:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-02-09T10:00"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - CECILLON Noe - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-02-16T16:00",
+        "location": "Stat 6 = Info - C 129",
+        "endDateTime": "2024-02-16T19:00"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - CECILLON Noe - M1-IA-IL-CLA - Evaluation",
+        "startDateTime": "2024-04-04T13:00",
+        "location": "Stat9 = Info - C 026",
+        "endDateTime": "2024-04-04T16:00"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - CECILLON Noe - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-02-20T14:30",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2024-02-20T17:30"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - CECILLON Noe - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-03-12T14:30",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-03-12T17:30"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - CECILLON Noe - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-03-19T14:30",
+        "location": "Stat 4 = Info - C 131",
+        "endDateTime": "2024-03-19T17:30"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - CECILLON Noe - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-03-25T13:00",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2024-03-25T14:30"
+      },
+      {
+        "summary": "UCE 3 PROCESSUS DU DEVELOPPEM - SALAS Daniel - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - CM",
+        "startDateTime": "2024-01-30T10:00",
+        "location": "S6 = C 022",
+        "endDateTime": "2024-01-30T13:00"
+      },
+      {
+        "summary": "UCE 3 PROCESSUS DU DEVELOPPEM - SALAS Daniel - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - CM",
+        "startDateTime": "2024-02-02T10:00",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-02-02T13:00"
+      },
+      {
+        "summary": "UCE 3 PROCESSUS DU DEVELOPPEM - MDHAFFAR Salima - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-02-05T14:30",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2024-02-05T17:30"
+      },
+      {
+        "summary": "UCE 3 PROCESSUS DU DEVELOPPEM - MDHAFFAR Salima - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-03-18T14:30",
+        "location": "Stat 6 = Info - C 129",
+        "endDateTime": "2024-03-18T17:30"
+      },
+      {
+        "summary": "UCE 3 PROCESSUS DU DEVELOPPEM - MDHAFFAR Salima - M1-IA-IL-CLA - Evaluation",
+        "startDateTime": "2024-03-26T13:00",
+        "location": "Stat 3 = Info - C 135",
+        "endDateTime": "2024-03-26T14:30"
+      },
+      {
+        "summary": "UCE 3 PROCESSUS DU DEVELOPPEM - MDHAFFAR Salima - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-02-13T08:30",
+        "location": "Stat 7 = Info - C 128",
+        "endDateTime": "2024-02-13T11:30"
+      },
+      {
+        "summary": "UCE 3 PROCESSUS DU DEVELOPPEM - MDHAFFAR Salima - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-02-21T14:30",
+        "location": "Stat 2 = Info - C 136",
+        "endDateTime": "2024-02-21T17:30"
+      },
+      {
+        "summary": "UCE 3 PROCESSUS DU DEVELOPPEM - MDHAFFAR Salima - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-03-04T08:30",
+        "location": "Stat 4 = Info - C 131",
+        "endDateTime": "2024-03-04T11:30"
+      },
+      {
+        "summary": "UCE 3 PROCESSUS DU DEVELOPPEM - MDHAFFAR Salima - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-03-11T08:30",
+        "location": "Stat 6 = Info - C 129",
+        "endDateTime": "2024-03-11T11:30"
+      },
+      {
+        "summary": "UCE 1 TECHNIQUES DE TEST - BONNEFOY Ludovic - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-03-15T16:00",
+        "location": "Stat 4 = Info - C 131",
+        "endDateTime": "2024-03-15T19:00"
+      },
+      {
+        "summary": "UCE 1 VEILLE TECHNOLOGIQUE - LEFEVRE Fabrice - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-05-07T14:30",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2024-05-07T17:30"
+      },
+      {
+        "summary": "UCE 1 TECHNIQUES DE TEST - BONNEFOY Ludovic - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-02-15T16:00",
+        "location": "Stat 2 = Info - C 136",
+        "endDateTime": "2024-02-15T19:00"
+      },
+      {
+        "summary": "Reservation de salles - IA-IL-CLA, IA-SI-ALT, IA-SI-CLA, L1S2 MI-I 5 CMI, L2S2 Info G1 CMI, L3INFO_TD1 + CMI, M1-IA-IL-ALT, M1-IA-IL-CLA, M1-IA-SI-ALT, M1-IA-SI-CLA, M1-ILSEN-alt, M1IL-CMI-alt, M1IL-CMI-cla - AGORA - CMI UNIQUEMENT",
+        "startDateTime": "2024-02-08T11:30",
+        "location": "Amphi Blaise",
+        "endDateTime": "2024-02-08T13:00"
+      },
+      {
+        "summary": "UCE 4 TRAITEMENT AUTOMATIQUE - ROUVIER Mickael - M1-IA-IL-ALT, M1-IA-IL-CLA - TP",
+        "startDateTime": "2023-12-11T10:00",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2023-12-11T13:00"
+      },
+      {
+        "summary": "UCE 4 TRAITEMENT AUTOMATIQUE - ROUVIER Mickael - M1-IA-IL-ALT, M1-IA-IL-CLA - CM",
+        "startDateTime": "2023-12-17T13:00",
+        "location": "S1 = C 042 Nodes",
+        "endDateTime": "2023-12-17T14:30"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2023-12-22T11:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-12-22T13:00"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-IA-SI-CLA - TP",
+        "startDateTime": "2024-01-08T14:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2024-01-08T16:00"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1-IA-IL-CLA - TD",
+        "startDateTime": "2024-03-21T16:00",
+        "location": "S2 = C 040",
+        "endDateTime": "2024-03-21T17:30"
+      },
+      {
+        "summary": "Reservation de salles - MDHAFFAR Salima - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-SICOM-Alt, M1-SICOM-Cla, M1IL-CMI-alt, M1IL-CMI-cla - Séminaire recherche LIA - CMI UNIQUEMENT",
+        "startDateTime": "2023-11-17T13:00",
+        "location": "S6 = C 022",
+        "endDateTime": "2023-11-17T14:30"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-SICOM-Cla - Evaluation",
+        "startDateTime": "2024-01-15T08:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2024-01-15T19:00"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-SICOM-Cla - Evaluation",
+        "startDateTime": "2024-01-16T13:00",
+        "location": "S3 = C 036",
+        "endDateTime": "2024-01-16T19:00"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-SICOM-Cla - Evaluation",
+        "startDateTime": "2024-01-17T08:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2024-01-17T19:00"
+      },
+      {
+        "summary": "UCE 2 PROGRAMMATION PARALLELE - ROUVIER Mickael - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1 - Evaluation",
+        "startDateTime": "2023-12-15T14:30",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-12-15T17:30"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA - TP",
+        "startDateTime": "2023-09-25T08:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-09-25T10:00"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA - TP",
+        "startDateTime": "2023-10-02T08:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-10-02T10:00"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA - TP",
+        "startDateTime": "2023-10-23T08:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2023-10-23T10:00"
+      },
+      {
+        "summary": "UCE 4 TRAITEMENT AUTOMATIQUE - ROUVIER Mickael - M1-IA-IL-ALT, M1-IA-IL-CLA - TP",
+        "startDateTime": "2023-12-19T14:30",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2023-12-19T17:30"
+      },
+      {
+        "summary": "Reservation de salles - HUET Stephane - L2 INFORMATIQUE - L3INFO_TD1 + CMI, L3INFO_TD2, L3INFO_TD3, L3INFO_TD4, M1-IA-IL-CLA, M1-IA-SI-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2, M1-SICOM-Cla, M1IL-CMI-cla - Présentation de l'alternance",
+        "startDateTime": "2024-03-25T11:30",
+        "location": "Amphi Blaise",
+        "endDateTime": "2024-03-25T12:30"
+      },
+      {
+        "summary": "UCE 1 ANGLAIS (ORIENTE ENTREP - REY Carole - M1-IA-IL-CLA, M1-ILSEN-cla-Gr1, M1-SICOM-Cla - Rattrapage",
+        "startDateTime": "2024-01-22T14:00",
+        "location": "S3 = C 036",
+        "endDateTime": "2024-01-22T17:00"
+      },
+      {
+        "summary": "UE PROJET 2 - HADDAD Majed, VERNET Mathilde - M1-IA-IL-CLA, M1-IA-SI-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2, M1-SICOM-Cla - CM/TD - 2ème rencontre",
+        "startDateTime": "2024-04-12T08:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-04-12T10:00"
+      },
+      {
+        "summary": "UCE 2 MANAGEMENT PAR LES PROC - MARTIN Yannis - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - CM",
+        "startDateTime": "2023-11-07T13:00",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-11-07T16:00"
+      },
+      {
+        "summary": "UCE 2 MANAGEMENT PAR LES PROC - MARTIN Yannis - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-SICOM-Alt, M1-SICOM-Cla - CM",
+        "startDateTime": "2023-11-14T13:00",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-11-14T16:00"
+      },
+      {
+        "summary": "UCE 1 TECHNIQUES DE TEST - BONNEFOY Ludovic - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-03-25T08:30",
+        "location": "Stat 4 = Info - C 131",
+        "endDateTime": "2024-03-25T11:30"
+      },
+      {
+        "summary": "Reservation de salles - HUET Stephane - L2 INFORMATIQUE - L3INFO_TD1 + CMI, L3INFO_TD2, L3INFO_TD3, L3INFO_TD4, M1-IA-IL-CLA, M1-IA-SI-CLA, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2, M1-SICOM-Cla, M1IL-CMI-cla - Informations pratiques sur l'alternance",
+        "startDateTime": "2024-04-12T11:30",
+        "location": "Amphi Ada",
+        "endDateTime": "2024-04-12T12:30"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - CECILLON Noe - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-03-07T13:00",
+        "location": "Stat 8 = Info - C 127",
+        "endDateTime": "2024-03-07T16:00"
+      },
+      {
+        "summary": "Rentree specifique - BENSLIMANE Abderrahim, LABATUT Vincent, ROUVIER Mickael - M1 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M1 INTELLIGENCE ARTIFICIELLE (IA), M1 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM), M2 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M2 INTELLIGENCE ARTIFICIELLE (IA), M2 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM) - réunion de rentrée du master informatique",
+        "startDateTime": "2023-09-11T10:00",
+        "location": "Amphi Ada",
+        "endDateTime": "2023-09-11T11:30"
+      },
+      {
+        "summary": "Reservation de salles - FIGUEIREDO Rosa, VERNET Mathilde - L1 INFORMATIQUE, L2 INFORMATIQUE, L3 INFORMATIQUE, M1 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M1 INTELLIGENCE ARTIFICIELLE (IA), M1 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM), M2 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M2 INTELLIGENCE ARTIFICIELLE (IA), M2 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM) - réunion d'information Ada Lovelace",
+        "startDateTime": "2023-10-10T16:00",
+        "location": "Amphi Blaise",
+        "endDateTime": "2023-10-10T19:00"
+      },
+      {
+        "summary": "Reservation de salles - BENSLIMANE Abderrahim, FIGUEIREDO Rosa, HUET Stephane, JABAIAN Bassam, LABATUT Vincent, MATROUF Driss, ROUVIER Mickael, SPRIET Thierry - M1 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M1 INTELLIGENCE ARTIFICIELLE (IA), M1 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM) - OCCA CV 5 - cérémonie de remise des diplômes",
+        "startDateTime": "2023-10-20T17:30",
+        "location": "Amphi Blaise",
+        "endDateTime": "2023-10-20T20:00"
+      },
+      {
+        "summary": "Reservation de salles - BENSLIMANE Abderrahim, COSTA Jean-pierre, DE PELLEGRINI Francesco, ELAZOUZI Rachid, ESTEVE Yannick, FIGUEIREDO Rosa, FREDOUILLE Corinne, GILLES Philippe, GOZLAN Philippe, GUEYE Serigne, HADDAD Majed, HAYEL Yezekael, HUET Stephane, JABAIAN Bassam, JOURLIN Pierre, LABATUT Vincent, LEFEVRE Fabrice, MATROUF Driss, NOCERA Pascal, ROUVIER Mickael, SPRIET Thierry, TORRES MORENO Juan manuel, VERNET Mathilde, ZHOU Fen - M1 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M1 INTELLIGENCE ARTIFICIELLE (IA), M1 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM), M2 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M2 INTELLIGENCE ARTIFICIELLE (IA), M2 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM) - L3INFO_TD5 ALT, L3INFO_TD6 ALT - soutenance alternance",
+        "startDateTime": "2024-01-11T08:00",
+        "location": "Amphi Ada, Amphi Blaise, S1 = C 042 Nodes, S2 = C 040, S2 BIS = C 038, S3 = C 036, S4 = C 034, S5 = C 024, S6 = C 022, S7 = C 032, S8 = C 030",
+        "endDateTime": "2024-01-11T17:30"
+      },
+      {
+        "summary": "Reservation de salles - LABATUT Vincent - M1 INTELLIGENCE ARTIFICIELLE (IA) - Entretiens individuels",
+        "startDateTime": "2023-09-11T16:00",
+        "location": "S2 = C 040",
+        "endDateTime": "2023-09-11T19:00"
+      },
+      {
+        "summary": "Reservation de salles - BEILLON Jennifer, HUET Stephane - L2 INFORMATIQUE, L3 INFORMATIQUE, M1 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M1 INTELLIGENCE ARTIFICIELLE (IA), M1 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM) - OCCA CV 5 - salon alternance 2024",
+        "startDateTime": "2024-05-14T08:00",
+        "location": "Amphi Ada, Amphi Blaise, S1 = C 042 Nodes, S2 = C 040, S2 BIS = C 038, S3 = C 036, S4 = C 034, S5 = C 024, S6 = C 022, S7 = C 032, S8 = C 030, Stat 1 = Info - C 137, Stat 6 = Info - C 129, Stat 7 = Info - C 128",
+        "endDateTime": "2024-05-14T20:00"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - TORRES MORENO Juan manuel - M1 INTELLIGENCE ARTIFICIELLE (IA) - Evaluation",
+        "startDateTime": "2024-03-07T17:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-03-07T19:00"
+      },
+      {
+        "summary": "Reservation de salles - FIGUEIREDO Rosa - L1 INFORMATIQUE, L2 INFORMATIQUE, L3 INFORMATIQUE, M1 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M1 INTELLIGENCE ARTIFICIELLE (IA), M1 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM), M2 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M2 INTELLIGENCE ARTIFICIELLE (IA), M2 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM) - OCCA CV 5 - semaine femmes en sciences",
+        "startDateTime": "2024-02-16T13:00",
+        "location": "Amphi Blaise",
+        "endDateTime": "2024-02-16T14:30"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M1 INTELLIGENCE ARTIFICIELLE (IA), M1 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM) - Evaluation",
+        "startDateTime": "2024-05-17T17:30",
+        "location": "Amphi Blaise",
+        "endDateTime": "2024-05-17T19:00"
+      },
+      {
+        "summary": "UCE 2 ANGLAIS (ORIENTE TECHNI - RONDIN Lilian - M1 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M1 INTELLIGENCE ARTIFICIELLE (IA), M1 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM) - Evaluation",
+        "startDateTime": "2024-03-22T14:30",
+        "location": "Amphi Blaise",
+        "endDateTime": "2024-03-22T16:00"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HAYEL Yezekael - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-02-16T14:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2024-02-16T16:00"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HAYEL Yezekael - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-03-04T17:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2024-03-04T19:00"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HAYEL Yezekael - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-01-29T11:30",
+        "location": "S2 BIS = C 038",
+        "endDateTime": "2024-01-29T13:00"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HAYEL Yezekael - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-02-01T14:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2024-02-01T16:00"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HAYEL Yezekael - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-02-12T10:00",
+        "location": "S2 BIS = C 038",
+        "endDateTime": "2024-02-12T11:30"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HUET Stephane - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-03-06T08:30",
+        "location": "S2 BIS = C 038",
+        "endDateTime": "2024-03-06T10:00"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HUET Stephane - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-03-13T08:30",
+        "location": "S2 BIS = C 038",
+        "endDateTime": "2024-03-13T10:00"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HUET Stephane - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-03-14T14:30",
+        "location": "Amphi Ada",
+        "endDateTime": "2024-03-14T16:00"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HUET Stephane - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-03-18T08:30",
+        "location": "S2 BIS = C 038",
+        "endDateTime": "2024-03-18T10:00"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HUET Stephane - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-03-20T08:30",
+        "location": "S2 BIS = C 038",
+        "endDateTime": "2024-03-20T10:00"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HUET Stephane - M1 INTELLIGENCE ARTIFICIELLE (IA) - Evaluation",
+        "startDateTime": "2024-05-13T08:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-05-13T10:00"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HUET Stephane - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-04-08T08:30",
+        "location": "S2 BIS = C 038",
+        "endDateTime": "2024-04-08T10:00"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HAYEL Yezekael - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-02-12T13:00",
+        "location": "Stat 8 = Info - C 127",
+        "endDateTime": "2024-02-12T16:00"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HUET Stephane - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-04-15T13:00",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-04-15T16:00"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HUET Stephane - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-03-15T08:30",
+        "location": "Stat 3 = Info - C 135",
+        "endDateTime": "2024-03-15T11:30"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HUET Stephane - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-03-21T10:00",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-03-21T13:00"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - TORRES MORENO Juan manuel - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-02-01T08:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-02-01T10:00"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - TORRES MORENO Juan manuel - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-02-07T08:30",
+        "location": "S6 = C 022",
+        "endDateTime": "2024-02-07T10:00"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - TORRES MORENO Juan manuel - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-01-31T10:00",
+        "location": "S6 = C 022",
+        "endDateTime": "2024-01-31T11:30"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - TORRES MORENO Juan manuel - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-02-08T08:30",
+        "location": "Amphi Ada",
+        "endDateTime": "2024-02-08T10:00"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - TORRES MORENO Juan manuel - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-02-15T11:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-02-15T13:00"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-03-08T08:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-03-08T10:00"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-03-18T10:00",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-03-18T11:30"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-03-14T11:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-03-14T13:00"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-03-20T10:00",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-03-20T11:30"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - TORRES MORENO Juan manuel - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-02-02T16:00",
+        "location": "Stat 6 = Info - C 129",
+        "endDateTime": "2024-02-02T19:00"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - TORRES MORENO Juan manuel - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-02-08T13:00",
+        "location": "Stat 6 = Info - C 129",
+        "endDateTime": "2024-02-08T16:00"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-03-15T13:00",
+        "location": "Stat9 = Info - C 026",
+        "endDateTime": "2024-03-15T16:00"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-03-08T16:00",
+        "location": "Stat 6 = Info - C 129",
+        "endDateTime": "2024-03-08T19:00"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-04-09T13:00",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-04-09T16:00"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-04-16T08:30",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-04-16T11:30"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-04-10T13:00",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-04-10T16:00"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - TORRES MORENO Juan manuel - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-02-07T14:30",
+        "location": "Stat 6 = Info - C 129",
+        "endDateTime": "2024-02-07T17:30"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - TORRES MORENO Juan manuel - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-03-07T08:30",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2024-03-07T11:30"
+      },
+      {
+        "summary": "UCE 3 APPLICATION IA - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-04-16T14:30",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-04-16T17:30"
+      },
+      {
+        "summary": "UCE 3 APPLICATION IA - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-04-11T08:30",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-04-11T11:30"
+      },
+      {
+        "summary": "UCE 3 APPLICATION IA - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-04-10T16:00",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-04-10T19:00"
+      },
+      {
+        "summary": "UCE 3 APPLICATION IA - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-04-17T14:30",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-04-17T17:30"
+      },
+      {
+        "summary": "UCE 3 APPLICATION IA - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-05-13T13:00",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-05-13T16:00"
+      },
+      {
+        "summary": "UCE 3 APPLICATION IA - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-05-16T13:00",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-05-16T16:00"
+      },
+      {
+        "summary": "UCE 3 APPLICATION IA - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-05-17T14:30",
+        "location": "Stat 3 = Info - C 135",
+        "endDateTime": "2024-05-17T17:30"
+      },
+      {
+        "summary": "UCE 3 APPLICATION IA - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-04-12T16:00",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-04-12T19:00"
+      },
+      {
+        "summary": "UCE 1 VEILLE TECHNOLOGIQUE - LEFEVRE Fabrice - M1 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M1 INTELLIGENCE ARTIFICIELLE (IA), M1 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM) - CM",
+        "startDateTime": "2024-02-05T11:30",
+        "location": "Amphi Blaise",
+        "endDateTime": "2024-02-05T13:00"
+      },
+      {
+        "summary": "UCE 1 VEILLE TECHNOLOGIQUE - LEFEVRE Fabrice - M1 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M1 INTELLIGENCE ARTIFICIELLE (IA), M1 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM) - CM",
+        "startDateTime": "2024-01-30T14:30",
+        "location": "Amphi Blaise",
+        "endDateTime": "2024-01-30T17:30"
+      },
+      {
+        "summary": "UCE 1 VEILLE TECHNOLOGIQUE - LEFEVRE Fabrice, TORRES MORENO Juan manuel - M1 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M1 INTELLIGENCE ARTIFICIELLE (IA), M1 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM) - Conférence",
+        "startDateTime": "2024-02-14T13:00",
+        "location": "Amphi Blaise",
+        "endDateTime": "2024-02-14T16:00"
+      },
+      {
+        "summary": "UCE 1 VEILLE TECHNOLOGIQUE - LEFEVRE Fabrice - M1 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M1 INTELLIGENCE ARTIFICIELLE (IA), M1 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM) - CM",
+        "startDateTime": "2024-02-14T10:00",
+        "location": "Amphi Blaise",
+        "endDateTime": "2024-02-14T11:30"
+      },
+      {
+        "summary": "UCE 1 VEILLE TECHNOLOGIQUE - LEFEVRE Fabrice, TORRES MORENO Juan manuel - M1 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M1 INTELLIGENCE ARTIFICIELLE (IA), M1 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM) - Conférence",
+        "startDateTime": "2024-03-06T14:30",
+        "location": "Amphi Blaise",
+        "endDateTime": "2024-03-06T17:30"
+      },
+      {
+        "summary": "UCE 1 VEILLE TECHNOLOGIQUE - HADDAD Majed, LEFEVRE Fabrice - M1 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M1 INTELLIGENCE ARTIFICIELLE (IA), M1 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM) - Conférence",
+        "startDateTime": "2024-03-14T16:00",
+        "location": "Amphi Blaise",
+        "endDateTime": "2024-03-14T19:00"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HAYEL Yezekael - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-03-08T10:00",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-03-08T13:00"
+      },
+      {
+        "summary": "UCE 1 VEILLE TECHNOLOGIQUE - LEFEVRE Fabrice - M1 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M1 INTELLIGENCE ARTIFICIELLE (IA), M1 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM) - CM/TD - VISIO",
+        "startDateTime": "2024-05-17T11:30",
+        "location": "Stat 1 = Info - C 137, Stat 2 = Info - C 136, Stat 7 = Info - C 128",
+        "endDateTime": "2024-05-17T13:00"
+      },
+      {
+        "summary": "UCE 1 VEILLE TECHNOLOGIQUE - LEFEVRE Fabrice - M1 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M1 INTELLIGENCE ARTIFICIELLE (IA), M1 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM) - Evaluation - QCM",
+        "startDateTime": "2024-05-16T16:00",
+        "location": "Stat 4 = Info - C 131",
+        "endDateTime": "2024-05-16T17:30"
+      },
+      {
+        "summary": "UCE 1 VEILLE TECHNOLOGIQUE - LEFEVRE Fabrice - M1 INGE DU LOGICIEL DE LA SOCIETE NUM (ILSEN), M1 INTELLIGENCE ARTIFICIELLE (IA), M1 SYSTEMES INFORMATIQUES COMMUNICANTS (SICOM) - Conférence - VISIO",
+        "startDateTime": "2024-04-17T17:30",
+        "location": "Stat 2 = Info - C 136",
+        "endDateTime": "2024-04-17T19:00"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-03-06T11:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-03-06T13:00"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-03-13T13:00",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-03-13T14:30"
+      },
+      {
+        "summary": "UCE 2 APPROCHES NEURONALES - TORRES MORENO Juan manuel - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-02-09T10:00",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-02-09T13:00"
+      },
+      {
+        "summary": "UCE 3 APPLICATION IA - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-04-17T08:30",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-04-17T11:30"
+      },
+      {
+        "summary": "UCE 3 APPLICATION IA - ESTEVE Yannick - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-05-15T16:00",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2024-05-15T19:00"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HUET Stephane - M1 INTELLIGENCE ARTIFICIELLE (IA) - TP",
+        "startDateTime": "2024-04-08T10:00",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-04-08T13:00"
+      },
+      {
+        "summary": "UCE 1 MODELES STOCHASTIQUES - HUET Stephane - M1 INTELLIGENCE ARTIFICIELLE (IA) - CM",
+        "startDateTime": "2024-03-04T16:00",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-03-04T17:30"
+      },
+      {
+        "summary": "asefgrth",
+        "startDateTime": "2024-04-04T09:00",
+        "location": "sadftrg",
+        "endDateTime": "2024-04-04T10:00"
+      },
+      {
+        "summary": "dwefrgtfe",
+        "startDateTime": "2024-04-04T11:30",
+        "location": "cd",
+        "endDateTime": "2024-04-04T12:00"
+      }
+    ],
+    "username": "user"
+  },
+  {
+    "password": "user2",
+    "preferences": {
+      "salle": "",
+      "theme": "Bonus 1",
+      "typeAffichage": "Par Jour",
+      "formation": "",
+      "enseignant": "Cecillon Noe"
+    },
+    "type": "enseignant",
+    "events": [
+      {
+        "summary": "UE DBWEB 1 : CONCEPTION INTER - Groupe MI-M + (ALLURE), MI-M - TP",
+        "startDateTime": "2023-10-03T14:30",
+        "location": "Stat 6 = Info - C 129",
+        "endDateTime": "2023-10-03T16:00"
+      },
+      {
+        "summary": "UE DBWEB 1 : CONCEPTION INTER - Groupe MI-M + (ALLURE), MI-M - TP",
+        "startDateTime": "2023-10-13T08:30",
+        "location": "Stat9 = Info - C 026",
+        "endDateTime": "2023-10-13T10:00"
+      },
+      {
+        "summary": "UE DBWEB 1 : CONCEPTION INTER - Groupe MI-M + (ALLURE), MI-M - TP",
+        "startDateTime": "2023-09-26T13:00",
+        "location": "Stat 8 = Info - C 127",
+        "endDateTime": "2023-09-26T14:30"
+      },
+      {
+        "summary": "UE DBWEB 1 : CONCEPTION INTER - Groupe MI-M + (ALLURE), MI-M - TP",
+        "startDateTime": "2023-10-17T13:00",
+        "location": "Stat 3 = Info - C 135",
+        "endDateTime": "2023-10-17T14:30"
+      },
+      {
+        "summary": "UE DBWEB 1 : CONCEPTION INTER - Groupe MI-M + (ALLURE), MI-M - TP",
+        "startDateTime": "2023-11-07T11:30",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2023-11-07T13:00"
+      },
+      {
+        "summary": "UE DBWEB 1 : CONCEPTION INTER - Groupe MI-M + (ALLURE), MI-M - TP",
+        "startDateTime": "2023-11-14T11:30",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2023-11-14T13:00"
+      },
+      {
+        "summary": "UE DBWEB 1 : CONCEPTION INTER - Groupe MI-M + (ALLURE), MI - I 5, MI-M - Evaluation",
+        "startDateTime": "2023-10-25T08:30",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2023-10-25T10:30"
+      },
+      {
+        "summary": "UE PROGRAMMATION LINEAIRE - FIGUEIREDO Rosa, GUEYE Serigne, POSS Michael - L2 INFORMATIQUE - Evaluation",
+        "startDateTime": "2023-10-09T10:00",
+        "location": "Amphi Ada, Amphi Blaise",
+        "endDateTime": "2023-10-09T12:00"
+      },
+      {
+        "summary": "UE PROGRAMMATION LINEAIRE - FIGUEIREDO Rosa, GUEYE Serigne, POSS Michael - L2 INFORMATIQUE - Evaluation",
+        "startDateTime": "2023-11-24T14:30",
+        "location": "Amphi Blaise",
+        "endDateTime": "2023-11-24T16:30"
+      },
+      {
+        "summary": "UE PROGRAMMATION LINEAIRE - L2 Info G2 - TD",
+        "startDateTime": "2023-09-20T16:00",
+        "location": "S7 = C 032",
+        "endDateTime": "2023-09-20T17:30"
+      },
+      {
+        "summary": "UE PROGRAMMATION LINEAIRE - L2 Info G2 - TD",
+        "startDateTime": "2023-10-18T16:00",
+        "location": "S7 = C 032",
+        "endDateTime": "2023-10-18T17:30"
+      },
+      {
+        "summary": "UE PROGRAMMATION LINEAIRE - L2 Info G2 - TD",
+        "startDateTime": "2023-11-08T16:00",
+        "location": "S7 = C 032",
+        "endDateTime": "2023-11-08T17:30"
+      },
+      {
+        "summary": "UE PROGRAMMATION LINEAIRE - L2 Info G2 - TD",
+        "startDateTime": "2023-09-13T14:30",
+        "location": "S7 = C 032",
+        "endDateTime": "2023-09-13T16:00"
+      },
+      {
+        "summary": "UE PROGRAMMATION LINEAIRE - L2 Info G2 - TD",
+        "startDateTime": "2023-10-23T10:00",
+        "location": "S7 = C 032",
+        "endDateTime": "2023-10-23T11:30"
+      },
+      {
+        "summary": "UE PROGRAMMATION LINEAIRE - L2 Info G2 - TP",
+        "startDateTime": "2023-09-15T13:00",
+        "location": "Stat 4 = Info - C 131",
+        "endDateTime": "2023-09-15T14:30"
+      },
+      {
+        "summary": "UE PROGRAMMATION LINEAIRE - L2 Info G2 - TP",
+        "startDateTime": "2023-09-22T13:00",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2023-09-22T14:30"
+      },
+      {
+        "summary": "UE PROGRAMMATION LINEAIRE - L2 Info G2 - TD",
+        "startDateTime": "2023-10-13T16:00",
+        "location": "S6 = C 022",
+        "endDateTime": "2023-10-13T17:30"
+      },
+      {
+        "summary": "UE PROGRAMMATION LINEAIRE - L2 Info G2 - TD",
+        "startDateTime": "2023-10-03T13:00",
+        "location": "S7 = C 032",
+        "endDateTime": "2023-10-03T14:30"
+      },
+      {
+        "summary": "UE PROGRAMMATION LINEAIRE - L2 Info G2 - Evaluation",
+        "startDateTime": "2023-11-17T14:30",
+        "location": "Stat 4 = Info - C 131",
+        "endDateTime": "2023-11-17T16:00"
+      },
+      {
+        "summary": "UE PROGRAMMATION LINEAIRE - L2 Info G2 - TP",
+        "startDateTime": "2023-09-29T14:30",
+        "location": "Stat 2 = Info - C 136",
+        "endDateTime": "2023-09-29T16:00"
+      },
+      {
+        "summary": "UE PROGRAMMATION LINEAIRE - L2 Info G2 - TP",
+        "startDateTime": "2023-10-27T14:30",
+        "location": "Stat 8 = Info - C 127",
+        "endDateTime": "2023-10-27T16:00"
+      },
+      {
+        "summary": "UE PROGRAMMATION LINEAIRE - L2 Info G2 - TP",
+        "startDateTime": "2023-11-10T14:30",
+        "location": "Stat 2 = Info - C 136",
+        "endDateTime": "2023-11-10T16:00"
+      },
+      {
+        "summary": "UE PROJET PROGRAMMATION 1 - DURET Jarod - L3INFO_TD1 + CMI, L3INFO_TD3, L3INFO_TD4 - TP - 2 salles stat + 1 salle TD - Enseignant non communiqué",
+        "startDateTime": "2023-09-25T14:30",
+        "location": "S6 = C 022, Stat 7 = Info - C 128, Stat 8 = Info - C 127",
+        "endDateTime": "2023-09-25T17:30"
+      },
+      {
+        "summary": "UE PROJET PROGRAMMATION 1 - DURET Jarod - L3INFO_TD1 + CMI, L3INFO_TD3, L3INFO_TD4 - TP - 2 salles stat + 1 salle TD - Enseignant non communiqué",
+        "startDateTime": "2023-10-02T16:00",
+        "location": "S8 = C 030, Stat 6 = Info - C 129, Stat 7 = Info - C 128",
+        "endDateTime": "2023-10-02T19:00"
+      },
+      {
+        "summary": "UE PROJET PROGRAMMATION 1 - DURET Jarod - L3INFO_TD1 + CMI, L3INFO_TD3, L3INFO_TD4 - TP - 2 salles stat + 1 salle TD - Enseignant non communiqué",
+        "startDateTime": "2023-09-12T14:30",
+        "location": "S8 = C 030, Stat 5 = Info - C 130, Stat 6 = Info - C 129",
+        "endDateTime": "2023-09-12T17:30"
+      },
+      {
+        "summary": "UE PROJET PROGRAMMATION 1 - DURET Jarod - L3INFO_TD1 + CMI, L3INFO_TD3, L3INFO_TD4 - TP - 2 salles stat + 1 salle TD - Enseignant non communiqué",
+        "startDateTime": "2023-10-24T08:30",
+        "location": "S3 = C 036, Stat 4 = Info - C 131, Stat 5 = Info - C 130",
+        "endDateTime": "2023-10-24T11:30"
+      },
+      {
+        "summary": "UE PROJET PROGRAMMATION 1 - DURET Jarod - L3INFO_TD1 + CMI, L3INFO_TD3, L3INFO_TD4 - TP - 2 salles stat + 1 salle TD - Enseignant non communiqué",
+        "startDateTime": "2023-11-24T08:30",
+        "location": "S5 = C 024, Stat 6 = Info - C 129, Stat 7 = Info - C 128",
+        "endDateTime": "2023-11-24T11:30"
+      },
+      {
+        "summary": "UE PROJET PROGRAMMATION 1 - DURET Jarod - L3INFO_TD1 + CMI, L3INFO_TD3, L3INFO_TD4 - TP - 2 salles stat + 1 salle TD - Enseignant non communiqué",
+        "startDateTime": "2023-12-01T08:30",
+        "location": "S5 = C 024, Stat 6 = Info - C 129, Stat 7 = Info - C 128",
+        "endDateTime": "2023-12-01T11:30"
+      },
+      {
+        "summary": "UE DBWEB 1 : CONCEPTION INTER - Groupe MI-M + (ALLURE), MI - I 5, MI-M - Evaluation",
+        "startDateTime": "2023-12-21T10:00",
+        "location": "Stat 1 = Info - C 137, Stat 7 = Info - C 128",
+        "endDateTime": "2023-12-21T12:00"
+      },
+      {
+        "summary": "UE PROGRAMMATION LINEAIRE - L2 Info G2 - TD",
+        "startDateTime": "2023-09-27T08:30",
+        "location": "S7 = C 032",
+        "endDateTime": "2023-09-27T10:00"
+      },
+      {
+        "summary": "UE PROJET PROGRAMMATION 1 - DURET Jarod - L3INFO_TD1 + CMI, L3INFO_TD3, L3INFO_TD4 - TP - 2 salles stat + 1 salle TD",
+        "startDateTime": "2024-01-09T10:00",
+        "location": "S2 BIS = C 038, Stat 6 = Info - C 129, Stat 7 = Info - C 128",
+        "endDateTime": "2024-01-09T13:00"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - CM",
+        "startDateTime": "2024-02-02T08:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-02-02T10:00"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - M1-IA-IL-ALT, M1-IA-IL-CLA, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2, M1-ILSEN-cla-Gr1, M1-ILSEN-cla-Gr2 - CM",
+        "startDateTime": "2024-02-09T08:30",
+        "location": "S5 = C 024",
+        "endDateTime": "2024-02-09T10:00"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-02-16T16:00",
+        "location": "Stat 6 = Info - C 129",
+        "endDateTime": "2024-02-16T19:00"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - M1-IA-IL-CLA - Evaluation",
+        "startDateTime": "2024-04-04T13:00",
+        "location": "Stat9 = Info - C 026",
+        "endDateTime": "2024-04-04T16:00"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - M1-IA-IL-ALT, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2 - TP",
+        "startDateTime": "2024-02-14T16:00",
+        "location": "Stat 3 = Info - C 135",
+        "endDateTime": "2024-02-14T19:00"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - M1-IA-IL-ALT, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2 - TP",
+        "startDateTime": "2024-03-04T13:00",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2024-03-04T16:00"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - M1-IA-IL-ALT, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2 - TP",
+        "startDateTime": "2024-03-11T13:00",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-03-11T16:00"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - M1-IA-IL-ALT, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2 - TP",
+        "startDateTime": "2024-03-20T13:00",
+        "location": "Stat 2 = Info - C 136",
+        "endDateTime": "2024-03-20T14:30"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-02-20T14:30",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2024-02-20T17:30"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-03-12T14:30",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-03-12T17:30"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-03-19T14:30",
+        "location": "Stat 4 = Info - C 131",
+        "endDateTime": "2024-03-19T17:30"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-03-25T13:00",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2024-03-25T14:30"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - M1-IA-IL-ALT, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2 - TP",
+        "startDateTime": "2024-03-11T08:30",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-03-11T11:30"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - M1-IA-IL-ALT, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2 - TP",
+        "startDateTime": "2024-03-23T15:00",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2024-03-23T18:00"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - M1-IA-IL-ALT, M1-ILSEN-alt-GR1, M1-ILSEN-alt-GR2 - Evaluation",
+        "startDateTime": "2024-04-08T16:00",
+        "location": "Stat 1 = Info - C 137",
+        "endDateTime": "2024-04-08T19:00"
+      },
+      {
+        "summary": "UE DBWEB 2 ARCHITECTURE WEB D - L1S2 MI-I 2 - TP",
+        "startDateTime": "2024-03-05T14:30",
+        "location": "Stat 4 = Info - C 131",
+        "endDateTime": "2024-03-05T16:00"
+      },
+      {
+        "summary": "UE DBWEB 2 ARCHITECTURE WEB D - L1S2 MI-I 2 - TP",
+        "startDateTime": "2024-02-19T13:00",
+        "location": "Stat 2 = Info - C 136",
+        "endDateTime": "2024-02-19T14:30"
+      },
+      {
+        "summary": "UE DBWEB 2 ARCHITECTURE WEB D - L1S2 MI-I 2 - Evaluation",
+        "startDateTime": "2024-03-22T08:30",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-03-22T10:30"
+      },
+      {
+        "summary": "UE DBWEB 2 ARCHITECTURE WEB D - L1S2 MI-I 2 - Evaluation",
+        "startDateTime": "2024-05-02T08:30",
+        "location": "Stat 3 = Info - C 135",
+        "endDateTime": "2024-05-02T10:30"
+      },
+      {
+        "summary": "UE DBWEB 2 ARCHITECTURE WEB D - L1S2 MI-I 2 - TP",
+        "startDateTime": "2024-03-26T11:30",
+        "location": "Stat 6 = Info - C 129",
+        "endDateTime": "2024-03-26T13:00"
+      },
+      {
+        "summary": "UE DBWEB 2 ARCHITECTURE WEB D - L1S2 MI-I 2 - TP",
+        "startDateTime": "2024-03-13T17:30",
+        "location": "Stat 3 = Info - C 135",
+        "endDateTime": "2024-03-13T19:00"
+      },
+      {
+        "summary": "UE ADMINISTRATION DES SYSTEME - JABAIAN Bassam, NOCERA Pascal - L2 INFORMATIQUE - Evaluation",
+        "startDateTime": "2024-04-03T13:00",
+        "location": "Amphi Ada, Amphi Blaise",
+        "endDateTime": "2024-04-03T14:30"
+      },
+      {
+        "summary": "UE ASSEMBLEUR ET COMPILATION - L2S2 Info G3 - TP",
+        "startDateTime": "2024-04-10T08:30",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-04-10T11:30"
+      },
+      {
+        "summary": "UE ASSEMBLEUR ET COMPILATION - L2S2 Info G3 - TP",
+        "startDateTime": "2024-05-03T08:30",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-05-03T11:30"
+      },
+      {
+        "summary": "UE ASSEMBLEUR ET COMPILATION - L2S2 Info G3 - TP",
+        "startDateTime": "2024-05-06T16:00",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-05-06T19:00"
+      },
+      {
+        "summary": "UE ASSEMBLEUR ET COMPILATION - L2S2 Info G3 - TP",
+        "startDateTime": "2024-04-04T10:00",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-04-04T13:00"
+      },
+      {
+        "summary": "UE ASSEMBLEUR ET COMPILATION - L2S2 Info G3 - TP",
+        "startDateTime": "2024-05-16T08:30",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-05-16T11:30"
+      },
+      {
+        "summary": "UE ASSEMBLEUR ET COMPILATION - L2S2 Info G3 - TP",
+        "startDateTime": "2024-03-21T13:00",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-03-21T16:00"
+      },
+      {
+        "summary": "UE ASSEMBLEUR ET COMPILATION - L2S2 Info G3 - TP",
+        "startDateTime": "2024-03-28T13:00",
+        "location": "Stat 6 = Info - C 129",
+        "endDateTime": "2024-03-28T16:00"
+      },
+      {
+        "summary": "UE ASSEMBLEUR ET COMPILATION - L2S2 Info G3 - TP",
+        "startDateTime": "2024-04-18T13:00",
+        "location": "Stat 5 = Info - C 130",
+        "endDateTime": "2024-04-18T16:00"
+      },
+      {
+        "summary": "UE DBWEB 2 ARCHITECTURE WEB D - L1S2 MI-I 2 - TP",
+        "startDateTime": "2024-04-05T13:00",
+        "location": "Stat 8 = Info - C 127",
+        "endDateTime": "2024-04-05T14:30"
+      },
+      {
+        "summary": "UE PROGRAMMATION LINEAIRE - FIGUEIREDO Rosa, GUEYE Serigne, POSS Michael - L2 INFORMATIQUE - Evaluation",
+        "startDateTime": "2023-11-28T10:00",
+        "location": "Amphi Ada, Amphi Blaise",
+        "endDateTime": "2023-11-28T13:00"
+      },
+      {
+        "summary": "UE PROJET PROGRAMMATION 2 - DURET Jarod - L3INFO_TD1 + CMI, L3INFO_TD3, L3INFO_TD4 - TP",
+        "startDateTime": "2024-02-22T08:30",
+        "location": "Stat 6 = Info - C 129, Stat9 = Info - C 026",
+        "endDateTime": "2024-02-22T11:30"
+      },
+      {
+        "summary": "UE PROJET PROGRAMMATION 2 - DURET Jarod - L3INFO_TD1 + CMI, L3INFO_TD3, L3INFO_TD4 - TP",
+        "startDateTime": "2024-01-29T08:30",
+        "location": "Stat 1 = Info - C 137, Stat 2 = Info - C 136",
+        "endDateTime": "2024-01-29T11:30"
+      },
+      {
+        "summary": "UE PROJET PROGRAMMATION 2 - DURET Jarod - L3INFO_TD1 + CMI, L3INFO_TD3, L3INFO_TD4 - TP",
+        "startDateTime": "2024-04-03T08:30",
+        "location": "Stat 2 = Info - C 136, Stat 3 = Info - C 135",
+        "endDateTime": "2024-04-03T11:30"
+      },
+      {
+        "summary": "UE PROJET PROGRAMMATION 2 - DURET Jarod - L3INFO_TD1 + CMI, L3INFO_TD3, L3INFO_TD4 - TP",
+        "startDateTime": "2024-04-19T08:30",
+        "location": "Stat 3 = Info - C 135, Stat 4 = Info - C 131",
+        "endDateTime": "2024-04-19T11:30"
+      },
+      {
+        "summary": "UE PROJET PROGRAMMATION 2 - DURET Jarod - L3INFO_TD1 + CMI, L3INFO_TD3, L3INFO_TD4 - TP",
+        "startDateTime": "2024-05-17T08:30",
+        "location": "Stat 1 = Info - C 137, Stat 3 = Info - C 135",
+        "endDateTime": "2024-05-17T11:30"
+      },
+      {
+        "summary": "UE PROJET PROGRAMMATION 2 - DURET Jarod - L3INFO_TD1 + CMI, L3INFO_TD3, L3INFO_TD4 - TP",
+        "startDateTime": "2024-04-29T13:00",
+        "location": "Stat 1 = Info - C 137, Stat 3 = Info - C 135",
+        "endDateTime": "2024-04-29T16:00"
+      },
+      {
+        "summary": "ANALYSE EN LIGNE (OLAP) ET VI - M1 GOUVERNANCE DES DONNEES - TD",
+        "startDateTime": "2024-03-22T16:00",
+        "location": "S7 = C 032",
+        "endDateTime": "2024-03-22T17:30"
+      },
+      {
+        "summary": "ANALYSE EN LIGNE (OLAP) ET VI - M1 GOUVERNANCE DES DONNEES - TD",
+        "startDateTime": "2024-03-27T16:00",
+        "location": "S7 = C 032",
+        "endDateTime": "2024-03-27T19:00"
+      },
+      {
+        "summary": "SOUTIEN DISCIPLINAIRE - L1 Info Soutien en Info - CM/TD - soutien disciplinaire en informatique pour les L1 informatique",
+        "startDateTime": "2024-02-06T08:30",
+        "location": "S2 = C 040",
+        "endDateTime": "2024-02-06T10:00"
+      },
+      {
+        "summary": "SOUTIEN DISCIPLINAIRE - L1 Info Soutien en Info - CM/TD - soutien disciplinaire en informatique pour les L1 informatique",
+        "startDateTime": "2024-02-13T08:30",
+        "location": "S2 BIS = C 038",
+        "endDateTime": "2024-02-13T10:00"
+      },
+      {
+        "summary": "SOUTIEN DISCIPLINAIRE - L1 Info Soutien en Info - CM/TD - soutien disciplinaire en informatique pour les L1 informatique",
+        "startDateTime": "2024-02-20T08:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2024-02-20T10:00"
+      },
+      {
+        "summary": "SOUTIEN DISCIPLINAIRE - L1 Info Soutien en Info - CM/TD - soutien disciplinaire en informatique pour les L1 informatique",
+        "startDateTime": "2024-03-05T08:30",
+        "location": "S8 = C 030",
+        "endDateTime": "2024-03-05T10:00"
+      },
+      {
+        "summary": "SOUTIEN DISCIPLINAIRE - L1 Info Soutien en Info - CM/TD - soutien disciplinaire en informatique pour les L1 informatique",
+        "startDateTime": "2024-03-12T08:30",
+        "location": "Amphi Ada",
+        "endDateTime": "2024-03-12T10:00"
+      },
+      {
+        "summary": "SOUTIEN DISCIPLINAIRE - L1 Info Soutien en Info - CM/TD - soutien disciplinaire en informatique pour les L1 informatique",
+        "startDateTime": "2024-03-19T08:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2024-03-19T10:00"
+      },
+      {
+        "summary": "SOUTIEN DISCIPLINAIRE - L1 Info Soutien en Info - CM/TD - soutien disciplinaire en informatique pour les L1 informatique",
+        "startDateTime": "2024-03-26T08:30",
+        "location": "S8 = C 030",
+        "endDateTime": "2024-03-26T10:00"
+      },
+      {
+        "summary": "SOUTIEN DISCIPLINAIRE - L1 Info Soutien en Info - CM/TD - soutien disciplinaire en informatique pour les L1 informatique",
+        "startDateTime": "2024-04-02T08:30",
+        "location": "S3 = C 036",
+        "endDateTime": "2024-04-02T10:00"
+      },
+      {
+        "summary": "SOUTIEN DISCIPLINAIRE - L1 Info Soutien en Info - CM/TD - soutien disciplinaire en informatique pour les L1 informatique",
+        "startDateTime": "2024-04-09T08:30",
+        "location": "S2 BIS = C 038",
+        "endDateTime": "2024-04-09T10:00"
+      },
+      {
+        "summary": "SOUTIEN DISCIPLINAIRE - L1 Info Soutien en Info - CM/TD - soutien disciplinaire en informatique pour les L1 informatique",
+        "startDateTime": "2024-04-16T08:30",
+        "location": "S2 = C 040",
+        "endDateTime": "2024-04-16T10:00"
+      },
+      {
+        "summary": "SOUTIEN DISCIPLINAIRE - L1 Info Soutien en Info - CM/TD - soutien disciplinaire en informatique pour les L1 informatique",
+        "startDateTime": "2024-04-30T08:30",
+        "location": "S4 = C 034",
+        "endDateTime": "2024-04-30T10:00"
+      },
+      {
+        "summary": "SOUTIEN DISCIPLINAIRE - L1 Info Soutien en Info - CM/TD - soutien disciplinaire en informatique pour les L1 informatique",
+        "startDateTime": "2024-05-07T08:30",
+        "location": "S7 = C 032",
+        "endDateTime": "2024-05-07T10:00"
+      },
+      {
+        "summary": "ANALYSE EN LIGNE (OLAP) ET VI - M1 GOUVERNANCE DES DONNEES - TD",
+        "startDateTime": "2024-02-21T16:00",
+        "location": "S7 = C 032",
+        "endDateTime": "2024-02-21T17:30"
+      },
+      {
+        "summary": "ANALYSE EN LIGNE (OLAP) ET VI - M1 GOUVERNANCE DES DONNEES - TD",
+        "startDateTime": "2024-04-19T13:00",
+        "location": "0W41 ( DEG )",
+        "endDateTime": "2024-04-19T16:00"
+      },
+      {
+        "summary": "ANALYSE EN LIGNE (OLAP) ET VI - M1 GOUVERNANCE DES DONNEES - TD",
+        "startDateTime": "2024-03-25T08:30",
+        "location": "0W41 ( DEG )",
+        "endDateTime": "2024-03-25T11:30"
+      },
+      {
+        "summary": "UCE 2 PROTOTYPAGE ET INTERFAC - M1-IA-IL-CLA - TP",
+        "startDateTime": "2024-03-07T13:00",
+        "location": "Stat 8 = Info - C 127",
+        "endDateTime": "2024-03-07T16:00"
+      }
+    ],
+    "username": "user2"
+  }
+]}

@@ -10,14 +10,14 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent initialView = FXMLLoader.load(getClass().getResource("/com/example/calendrier/Semaine-view.fxml"));
+        Parent initialView = FXMLLoader.load(getClass().getResource("/com/example/calendrier/login.fxml"));
         primaryStage.setTitle("Calendrier");
 
-        Scene scene = new Scene(initialView, 600, 400);
+        Scene scene = new Scene(initialView, 400, 600);
 
-        String cssPath = getClass().getResource("/com/example/calendrier/style_dark.css").toExternalForm();
+        String cssPath = getClass().getResource("/com/example/calendrier/style_light.css").toExternalForm();
         scene.getStylesheets().add(cssPath);
-
+        primaryStage.setResizable(false);
         primaryStage.setScene(scene);
         primaryStage.show();
     }

@@ -56,11 +56,11 @@ public class IcsReader {
                             location);
                     events.add(event);
                 } catch (Exception e) {
-                    System.err.println("Erreur lors du traitement d'un événement, saut de cet événement. Détails: " + e.getMessage());
+                    System.err.println("");
                 }
             }
         } catch (Exception e) {
-            System.err.println("Erreur générale lors de la lecture du fichier ICS. Détails: " + e.getMessage());
+            System.err.println("");
         }
         return events;
     }
@@ -85,11 +85,11 @@ public class IcsReader {
                             location);
                     events.add(event);
                 } catch (Exception e) {
-                    System.err.println("Erreur lors du traitement d'un événement, saut de cet événement. Détails: " + e.getMessage());
+                    System.err.println("");
                 }
             }
         } catch (Exception e) {
-            System.err.println("Erreur générale lors de la lecture du fichier ICS. Détails: " + e.getMessage());
+            System.err.println("");
         }
         return events;
     }

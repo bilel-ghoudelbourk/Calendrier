@@ -1,22 +1,22 @@
 package com.example.calendrier;
 
-import javafx.fxml.FXML;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.TextField;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.scene.Node;
-import javafx.stage.Stage;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
-import javafx.scene.control.ListView;
-import javafx.scene.input.KeyCode;
-import javafx.scene.layout.VBox;
 
 public class FilterController {
 
@@ -60,23 +60,23 @@ public class FilterController {
         });
 
         filterComboBox.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
-            suggestions.clear(); 
-            suggestionsBox.setVisible(false); 
-            
+            suggestions.clear();
+            suggestionsBox.setVisible(false);
+
             updateSuggestionsBasedOnFilter(newValue, searchBar.getText().trim());
         });
     }
 
     private Set<String> getUniqueLocationsFromEvents(List<Event> events) {
         return events.stream()
-                .map(Event::getLocation) 
-                .filter(location -> location != null && !location.isEmpty()) 
-                .flatMap(location -> Arrays.stream(location.split(",\\s*"))) 
-                .collect(Collectors.toSet()); 
+                .map(Event::getLocation)
+                .filter(location -> location != null && !location.isEmpty())
+                .flatMap(location -> Arrays.stream(location.split(",\\s*")))
+                .collect(Collectors.toSet());
     }
 
     private void updateSuggestionsBasedOnFilter(String filterType, String searchText) {
-        suggestions.clear(); 
+        suggestions.clear();
 
         if ("Matière".equals(filterType) && !searchText.isEmpty()) {
             summaries.stream()
@@ -144,22 +144,22 @@ public class FilterController {
     }
 
     @FXML
-    private Label filterStatusLabel; 
+    private Label filterStatusLabel;
     @FXML
     private void handleFilterAction(ActionEvent event) {
         loadEventsFromUrl();
         String filterType = filterComboBox.getValue();
         String searchText = searchBar.getText().trim().toLowerCase();
 
-        
+
         List<Event>  filteredEvents = events.stream()
                 .filter(e -> filterEvent(e, filterType, searchText))
                 .collect(Collectors.toList());
 
-        
+
         updateUIWithFilteredEvents(filteredEvents);
 
-        
+
         if(filteredEvents.isEmpty()){
             filterStatusLabel.setText("Aucun événement trouvé pour '" + searchText + "' dans " + filterType);
         } else {
@@ -172,7 +172,9 @@ public class FilterController {
         String eventsUrl = HeaderController.getEventsUrl();
         events = IcsReader.readIcsFromUrl(eventsUrl);
         updateUIWithFilteredEvents(events);
-    }
+        searchBar.setText("");
+        filterStatusLabel.setText("");
+        }
 
     private void updateUIWithFilteredEvents(List<Event> filteredEvents) {
         HeaderController.updateFilteredEventsGlobal(filteredEvents);
