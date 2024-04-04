@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "username": "user",
+      "password": "user",
+      "type": "etudiant",
+      "preferences": {
+        "theme": "Mode Clair",
+        "typeAffichage": "Par Mois",
+        "formation": "M1-IA-IL-Cla",
+        "salle": "",
+        "enseignant": ""
+      }
+    },
+    {
+      "username": "user2",
+      "password": "user2",
+      "type": "enseignant",
+      "preferences": {
+        "theme": "Mode Sombre",
+        "typeAffichage": "Par Jour",
+        "formation": "",
+        "salle": "",
+        "enseignant": "Cecillon Noe"
+      }
+    }
+  ]
+}

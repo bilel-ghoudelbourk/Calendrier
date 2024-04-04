@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" spacing="20" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.calendrier.LoginController">
+    <ImageView fitWidth="230" fitHeight="230" pickOnBounds="true" preserveRatio="true">
+        <Image url="@logo.png"/>
+    </ImageView>
+    <padding>
+        <Insets top="10" right="80" bottom="10" left="80"/>
+    </padding>
+
+    <Label text="Connexion" styleClass="title"/>
+    <TextField fx:id="usernameField" promptText="Nom d'utilisateur" styleClass="login-text" />
+    <PasswordField fx:id="passwordField" promptText="Mot de passe" styleClass="login-password"/>
+    <Button text="Se connecter" onAction="#handleLoginAction" styleClass="login-button"/>
+</VBox>
